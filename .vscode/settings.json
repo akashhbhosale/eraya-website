@@ -1,0 +1,7 @@
+{
+    "diffEditor.codeLens": true,
+    "diffEditor.experimental.showEmptyDecorations": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+}
