@@ -24,7 +24,7 @@ const CAD = () => {
       <Navigation />
       <FallingStarsBackground1 />
 
-      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/cad-bg.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-12">
+      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/cad-bg.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-8 mb-20">
         <div className="absolute inset-0 bg-black/60 rounded-3xl z-0" />
 
         <div className="relative z-10">
@@ -35,22 +35,25 @@ const CAD = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-fade-in drop-shadow-lg mb-6 leading-tight tracking-wide">
+            <h1 className="text-6xl md:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 animate-fade-in drop-shadow-2xl mb-10 leading-[1.2] tracking-wide">
               Computer Aided Design (CAD)
             </h1>
-            <motion.p className="text-lg italic text-gray-100 flex flex-wrap justify-center gap-1">
-              {words.map((word, i) => (
-                <motion.span
-                  key={i}
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.2 }}
-                  className="bg-gradient-to-r from-pink-400 via-orange-400 to-yellow-300 bg-clip-text text-transparent hover:underline transition duration-200"
-                >
-                  {word}
-                </motion.span>
-              ))}
-            </motion.p>
+
+            <div className="overflow-visible">
+              <motion.p className="text-xl md:text-2xl italic bg-gradient-to-r from-blue-400 via-blue-200 to-[#C0C0C0] bg-clip-text text-transparent flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
+                {words.map((word, i) => (
+                  <motion.span
+                    key={i}
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.2 }}
+                    className="hover:underline transition duration-200"
+                  >
+                    {word}
+                  </motion.span>
+                ))}
+              </motion.p>
+            </div>
           </motion.div>
 
           <motion.div
@@ -207,7 +210,9 @@ const CAD = () => {
           />
         </div>
       )}
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

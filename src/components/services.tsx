@@ -9,7 +9,6 @@ import GrandChild from "./ServicesComponents/GrandChild";
 import GreatGrandChild from "./ServicesComponents/GreatGrandChild";
 import { Vortex } from "../components/ui/vortex";
 
-
 export default function Services() {
   type Service = {
     id: string;
@@ -32,9 +31,10 @@ export default function Services() {
   }, []);
 
   return (
-
-
-    <section id="services" className=" h-[72rem] bg-slate-950 overflow-hidden relative w-screen mx-auto rounded-md  ">
+    <section
+      id="services"
+      className=" h-[72rem] bg-slate-950 overflow-hidden relative w-screen mx-auto rounded-md  "
+    >
       <Vortex
         backgroundColor="black"
         rangeY={800}
@@ -52,7 +52,8 @@ export default function Services() {
             Our Services
           </motion.h2>
           <p className="text-muted-foreground max-w-2xl mx-auto mb-16">
-            Comprehensive solutions in engineering, manufacturing, and talent services
+            Comprehensive solutions in engineering, manufacturing, and talent
+            services
           </p>
         </div>
 
@@ -69,36 +70,124 @@ export default function Services() {
             label={<Parent link="/" title="ERAYA" />}
           >
             <TreeNode label={<Child link="/" title="Design and Enginnering" />}>
-              <TreeNode label={<GrandChild link="/" title="Computer Aided Design(CAD)" />}>
-                <TreeNode label={<GreatGrandChild link="/" title="Computer Aided Machining (CAM)" />}>
-                  <TreeNode label={<GreatGrandChild link="/" title="Finite Element Analysis (FEA)" />}>
-                    <TreeNode label={<GreatGrandChild link="/" title="Computational Fluid  Dynamics (CFD)" />}>
-                      <TreeNode label={<GreatGrandChild link="/" title="Design Optimization" />}>
-                      </TreeNode>
+              <TreeNode
+                label={
+                  <GrandChild
+                    link="/services/cad"
+                    title="Computer Aided Design(CAD)"
+                  />
+                }
+              >
+                <TreeNode
+                  label={
+                    <GreatGrandChild
+                      link="/"
+                      title="Computer Aided Machining (CAM)"
+                    />
+                  }
+                >
+                  <TreeNode
+                    label={
+                      <GreatGrandChild
+                        link="/"
+                        title="Finite Element Analysis (FEA)"
+                      />
+                    }
+                  >
+                    <TreeNode
+                      label={
+                        <GreatGrandChild
+                          link="/"
+                          title="Computational Fluid  Dynamics (CFD)"
+                        />
+                      }
+                    >
+                      <TreeNode
+                        label={
+                          <GreatGrandChild
+                            link="/"
+                            title="Design Optimization"
+                          />
+                        }
+                      ></TreeNode>
                     </TreeNode>
                   </TreeNode>
                 </TreeNode>
               </TreeNode>
-              <TreeNode label={<GrandChild link="/" title="Product Development" />}>
-                <TreeNode label={<GreatGrandChild link="/" title="New Product Development (NPD)" />}>
-                  <TreeNode label={<GreatGrandChild link="/" title="Disruptive Innovation" />}>
-                    <TreeNode label={<GreatGrandChild link="/" title="Concept Development" />}>
-                      <TreeNode label={<GreatGrandChild link="/" title="Prototyping" />}>
-                      </TreeNode>
+              <TreeNode
+                label={<GrandChild link="/" title="Product Development" />}
+              >
+                <TreeNode
+                  label={
+                    <GreatGrandChild
+                      link="/"
+                      title="New Product Development (NPD)"
+                    />
+                  }
+                >
+                  <TreeNode
+                    label={
+                      <GreatGrandChild link="/" title="Disruptive Innovation" />
+                    }
+                  >
+                    <TreeNode
+                      label={
+                        <GreatGrandChild link="/" title="Concept Development" />
+                      }
+                    >
+                      <TreeNode
+                        label={<GreatGrandChild link="/" title="Prototyping" />}
+                      ></TreeNode>
                     </TreeNode>
                   </TreeNode>
                 </TreeNode>
               </TreeNode>
               <TreeNode label={<GrandChild link="/" title="Testing" />}>
-                <TreeNode label={<GreatGrandChild link="/" title="Crash Testing" />}>
-                  <TreeNode label={<GreatGrandChild link="/" title="Static Load Testing" />}>
-                    <TreeNode label={<GreatGrandChild link="/" title="Fire Testing" />}>
-                      <TreeNode label={<GreatGrandChild link="/" title="Acoustic Testing" />}>
-                        <TreeNode label={<GreatGrandChild link="/" title="Adhesion Testing" />}>
-                          <TreeNode label={<GreatGrandChild link="/" title="Enviornmental Testing" />}>
-                            <TreeNode label={<GreatGrandChild link="/" title="EMF Testing" />}>
-                              <TreeNode label={<GreatGrandChild link="/" title="Life Cycle Testing" />}>
-                              </TreeNode>
+                <TreeNode
+                  label={<GreatGrandChild link="/" title="Crash Testing" />}
+                >
+                  <TreeNode
+                    label={
+                      <GreatGrandChild link="/" title="Static Load Testing" />
+                    }
+                  >
+                    <TreeNode
+                      label={<GreatGrandChild link="/" title="Fire Testing" />}
+                    >
+                      <TreeNode
+                        label={
+                          <GreatGrandChild link="/" title="Acoustic Testing" />
+                        }
+                      >
+                        <TreeNode
+                          label={
+                            <GreatGrandChild
+                              link="/"
+                              title="Adhesion Testing"
+                            />
+                          }
+                        >
+                          <TreeNode
+                            label={
+                              <GreatGrandChild
+                                link="/"
+                                title="Enviornmental Testing"
+                              />
+                            }
+                          >
+                            <TreeNode
+                              label={
+                                <GreatGrandChild link="/" title="EMF Testing" />
+                              }
+                            >
+                              <TreeNode
+                                label={
+                                  <GreatGrandChild
+                                    link="/"
+                                    title="Life Cycle Testing"
+                                  />
+                                }
+                              ></TreeNode>
                             </TreeNode>
                           </TreeNode>
                         </TreeNode>
@@ -109,14 +198,53 @@ export default function Services() {
               </TreeNode>
             </TreeNode>
             <TreeNode label={<Child link="/" title="Manufacturing" />}>
-              <TreeNode label={<GreatGrandChild link="/" title="Custom Manufacturing" />}>
-                <TreeNode label={<GreatGrandChild link="/" title="CNC Machining (Wood & Metal)" />}>
-                  <TreeNode label={<GreatGrandChild link="/" title=" Sheet Metal Fabrication" />}>
-                    <TreeNode label={<GreatGrandChild link="/" title="Casted Products" />}>
-                      <TreeNode label={<GreatGrandChild link="/" title="Injection Moulded" />}>
-                        <TreeNode label={<GreatGrandChild link="/" title="Specialised Bonding - EN17460" />}>
-                          <TreeNode label={<GreatGrandChild link="/" title="Specialised Welding to BS EN 15085" />}>
-                          </TreeNode>
+              <TreeNode
+                label={
+                  <GreatGrandChild link="/" title="Custom Manufacturing" />
+                }
+              >
+                <TreeNode
+                  label={
+                    <GreatGrandChild
+                      link="/"
+                      title="CNC Machining (Wood & Metal)"
+                    />
+                  }
+                >
+                  <TreeNode
+                    label={
+                      <GreatGrandChild
+                        link="/"
+                        title=" Sheet Metal Fabrication"
+                      />
+                    }
+                  >
+                    <TreeNode
+                      label={
+                        <GreatGrandChild link="/" title="Casted Products" />
+                      }
+                    >
+                      <TreeNode
+                        label={
+                          <GreatGrandChild link="/" title="Injection Moulded" />
+                        }
+                      >
+                        <TreeNode
+                          label={
+                            <GreatGrandChild
+                              link="/"
+                              title="Specialised Bonding - EN17460"
+                            />
+                          }
+                        >
+                          <TreeNode
+                            label={
+                              <GreatGrandChild
+                                link="/"
+                                title="Specialised Welding to BS EN 15085"
+                              />
+                            }
+                          ></TreeNode>
                         </TreeNode>
                       </TreeNode>
                     </TreeNode>
@@ -125,14 +253,43 @@ export default function Services() {
               </TreeNode>
             </TreeNode>
             <TreeNode label={<Child link="/" title="Talent Services" />}>
-              <TreeNode label={<GreatGrandChild link="/" title="CAD Engineers" />}>
-                <TreeNode label={<GreatGrandChild link="/" title="Drafting Technicians" />}>
-                  <TreeNode label={<GreatGrandChild link="/" title="Drafting Engineers" />}>
-                    <TreeNode label={<GreatGrandChild link="/" title="CAM Engineers" />}>
-                      <TreeNode label={<GreatGrandChild link="/" title="Structural Engineers" />}>
-                        <TreeNode label={<GreatGrandChild link="/" title="FEA Engineers" />}>
-                          <TreeNode label={<GreatGrandChild link="/" title="Testing Engineers" />}>
-                          </TreeNode>
+              <TreeNode
+                label={<GreatGrandChild link="/" title="CAD Engineers" />}
+              >
+                <TreeNode
+                  label={
+                    <GreatGrandChild link="/" title="Drafting Technicians" />
+                  }
+                >
+                  <TreeNode
+                    label={
+                      <GreatGrandChild link="/" title="Drafting Engineers" />
+                    }
+                  >
+                    <TreeNode
+                      label={<GreatGrandChild link="/" title="CAM Engineers" />}
+                    >
+                      <TreeNode
+                        label={
+                          <GreatGrandChild
+                            link="/"
+                            title="Structural Engineers"
+                          />
+                        }
+                      >
+                        <TreeNode
+                          label={
+                            <GreatGrandChild link="/" title="FEA Engineers" />
+                          }
+                        >
+                          <TreeNode
+                            label={
+                              <GreatGrandChild
+                                link="/"
+                                title="Testing Engineers"
+                              />
+                            }
+                          ></TreeNode>
                         </TreeNode>
                       </TreeNode>
                     </TreeNode>
@@ -144,9 +301,7 @@ export default function Services() {
         </motion.div>
       </Vortex>
     </section>
-
   );
 }
-
 
 // <TreeNode label={<div>Grand Child 2</div>} />

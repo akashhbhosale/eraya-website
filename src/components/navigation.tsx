@@ -4,18 +4,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetTrigger,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "Services", href: "#services" },
-  { name: "Clients", href: "#clients" },
-  { name: "Team", href: "#team" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "Clients", href: "/clients" },
+  { name: "Team", href: "/team" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export function Navigation() {
@@ -31,15 +27,16 @@ export function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-black bg-opacity-90 ${isScrolled
+      className={`fixed top-0 w-full z-50 transition-all duration-300 bg-black bg-opacity-90 ${
+        isScrolled
           ? "bg-background/80 backdrop-blur-md shadow-lg"
           : "bg-transparent"
-        }`}
+      }`}
     >
-      <div className=" mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link
-            href="#home"
+            href="/"
             className="text-2xl font-bold tracking-tighter hover:text-primary transition-colors font-ailerons"
           >
             ERAYA
