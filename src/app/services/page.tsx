@@ -1,8 +1,13 @@
 "use client";
 
-import Services from "@/components/services";
+import dynamic from "next/dynamic";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
+
+// ⛑ Dynamically load the Services component with SSR disabled
+const Services = dynamic(() => import("@/components/services"), {
+  ssr: false,
+});
 
 export default function ServicesPage() {
   return (
