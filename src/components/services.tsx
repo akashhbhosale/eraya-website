@@ -89,7 +89,7 @@ export default function Services() {
                   <TreeNode
                     label={
                       <GreatGrandChild
-                        link="/"
+                        link="/services/fea"
                         title="Finite Element Analysis (FEA)"
                       />
                     }
@@ -97,7 +97,7 @@ export default function Services() {
                     <TreeNode
                       label={
                         <GreatGrandChild
-                          link="/"
+                          link="/services/cfd"
                           title="Computational Fluid  Dynamics (CFD)"
                         />
                       }
@@ -105,7 +105,7 @@ export default function Services() {
                       <TreeNode
                         label={
                           <GreatGrandChild
-                            link="/"
+                            link="/services/designoptimization"
                             title="Design Optimization"
                           />
                         }
