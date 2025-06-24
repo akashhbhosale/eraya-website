@@ -81,7 +81,7 @@ export default function Services() {
                 <TreeNode
                   label={
                     <GreatGrandChild
-                      link="/"
+                      link="/services/cam"
                       title="Computer Aided Machining (CAM)"
                     />
                   }
