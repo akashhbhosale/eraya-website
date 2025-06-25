@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import FallingStarsBackground1 from "@/components/ui/falling-stars-background-1";
 import { motion } from "framer-motion";
 
-const DesignOptimization = () => {
+const ProductDevelopment = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
@@ -14,14 +14,14 @@ const DesignOptimization = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const quote =
-    "Optimization isn't guesswork — it's engineering refined through intelligence. ERAYA drives smarter design outcomes.";
+    "Every great product starts with an idea — ERAYA turns that idea into reality through engineering excellence.";
   const words = quote.split(" ");
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden text-white bg-black py-6 px-6 mt-0">
       <FallingStarsBackground1 />
 
-      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/CFD-bg.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-8 mb-20">
+      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/pd-bg.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-8 mb-20">
         <div className="absolute inset-0 bg-black/60 rounded-3xl z-0" />
 
         <div className="relative z-10">
@@ -34,7 +34,7 @@ const DesignOptimization = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-400 to-cyan-300 animate-fade-in drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
-              Design Optimization
+              Product Development
             </h1>
             <motion.p className="text-xl md:text-2xl italic font-bold bg-gradient-to-r from-green-300 via-cyan-200 to-gray-300 bg-clip-text text-transparent flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
               {words.map((word, i) => (
@@ -55,51 +55,45 @@ const DesignOptimization = () => {
           <motion.div
             className="text-lg font-semibold text-gray-200 leading-relaxed mt-6 text-center md:text-left"
             data-aos="fade-up"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
           >
-            At <span className="font-bold text-white">ERAYA</span>, we engineer
-            smarter products through structured{" "}
-            <span className="text-white font-bold">design optimization</span>.
-            From weight reduction and material efficiency to performance tuning,
-            our simulation-driven approach ensures every design is the best
-            version of itself.
+            At <span className="font-bold text-white">ERAYA</span>, our Product
+            Development Division brings concepts to life through an integrated
+            approach combining design, simulation, prototyping, and
+            manufacturing. We assist startups, innovators, and industries with
+            end-to-end development of functional, market-ready products.
           </motion.div>
 
           {/* Section Grid */}
           <motion.div
             className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-center justify-center text-center md:text-left"
             data-aos="fade-up"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
           >
             <Section
               title={
                 <>
-                  <span className="text-orange-300">🧮</span> Optimization
-                  Techniques
+                  <span className="text-orange-300">🚀</span> End-to-End Concept
+                  Development
                 </>
               }
               data={[
-                "Topology & shape optimization",
-                "Weight minimization",
-                "Multi-objective optimization",
-                "Parametric studies",
+                "Ideation and feasibility analysis",
+                "Sketching and 3D concept modeling",
+                "User-centric design approach",
+                "Design validation through prototyping",
               ]}
             />
             <Section
               title={
                 <>
-                  <span className="text-blue-300">🔄</span> Design Exploration
+                  <span className="text-blue-300">🛠️</span> Engineering &
+                  Prototyping
                 </>
               }
               data={[
-                "Sensitivity analysis",
-                "Design space mapping",
-                "DOE (Design of Experiments)",
-                "Trade-off analysis",
+                "CAD modeling and industrial design",
+                "FEA/CFD simulations for design validation",
+                "3D printing, CNC machining & functional prototyping",
+                "Design iterations based on performance feedback",
               ]}
             />
             <Section
@@ -109,10 +103,10 @@ const DesignOptimization = () => {
                 </>
               }
               data={[
-                "ANSYS OptiSLang",
-                "SolidWorks Simulation",
-                "Altair HyperStudy",
-                "MATLAB Optimization Toolbox",
+                "SolidWorks / CATIA / NX",
+                "Autodesk Fusion 360",
+                "ANSYS / SimScale",
+                "KeyShot (for rendering & visualization)",
               ]}
             />
           </motion.div>
@@ -131,10 +125,10 @@ const DesignOptimization = () => {
               </h3>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
-                  "Optimization reports",
-                  "CAD-ready refined geometries",
-                  "Performance plots & charts",
-                  "Comparison matrices",
+                  "Final CAD and engineering drawing packages",
+                  "Functional and aesthetic prototypes",
+                  "Design validation reports and test results",
+                  "Manufacturing-ready documentation",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -145,7 +139,7 @@ const DesignOptimization = () => {
                 ))}
               </ul>
             </div>
-            {["/assets/desopt-3.png", "/assets/desopt-4.png"].map((src, i) => (
+            {["/assets/pd-1.png", "/assets/pd-2.png"].map((src, i) => (
               <div
                 key={i}
                 className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
@@ -165,31 +159,7 @@ const DesignOptimization = () => {
             className="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-6 mt-16 transition-transform duration-300 hover:scale-[1.01] hover:bg-white/5 rounded-xl p-4 w-full"
             data-aos="fade-up"
           >
-            <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 transition duration-300">
-                <span className="text-purple-300 mr-2">🌟</span>
-                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
-                  Why Choose Us?
-                </span>
-              </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
-                {[
-                  "Simulation-driven design insights",
-                  "Efficient and lean product outcomes",
-                  "Reduced trial-and-error cycles",
-                  "Quantitative decision-making support",
-                  "Engineers with multi-domain expertise",
-                ].map((item, i) => (
-                  <li
-                    key={i}
-                    className="hover:text-cyan-400 hover:scale-[1.02] transform origin-left transition duration-300"
-                  >
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            {["/assets/desopt-7.png", "/assets/desopt-8.png"].map((src, i) => (
+            {["/assets/pd-3.png", "/assets/pd-4.png"].map((src, i) => (
               <div
                 key={i}
                 className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
@@ -202,11 +172,35 @@ const DesignOptimization = () => {
                 />
               </div>
             ))}
+            <div className="w-full md:w-1/2">
+              <h3 className="text-2xl font-bold mb-3 transition duration-300">
+                <span className="text-purple-300 mr-2">🌟</span>
+                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
+                  Why Choose Us?
+                </span>
+              </h3>
+              <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
+                {[
+                  "Multidisciplinary product development expertise",
+                  "Agile design methodology and rapid iteration",
+                  "Strong focus on usability and performance",
+                  "Full lifecycle support: from idea to launch",
+                  "Trusted by startups and enterprise clients alike",
+                ].map((item, i) => (
+                  <li
+                    key={i}
+                    className="hover:text-cyan-400 hover:scale-[1.02] transform origin-left transition duration-300"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Image Preview */}
+      {/* Image Viewer */}
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center overflow-y-auto"
@@ -247,4 +241,4 @@ const Section: React.FC<SectionProps> = ({ title, data }) => {
   );
 };
 
-export default DesignOptimization;
+export default ProductDevelopment;
