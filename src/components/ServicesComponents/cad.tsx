@@ -32,12 +32,12 @@ const CAD = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-400 to-cyan-300 animate-fade-in drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-blue-500 drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
               Computer Aided Design (CAD)
             </h1>
 
             <div className="overflow-visible">
-              <motion.p className="text-xl md:text-2xl italic font-bold bg-gradient-to-r from-green-300 via-cyan-200 to-gray-300 bg-clip-text text-transparent flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
+              <motion.p className="text-xl md:text-2xl italic font-bold text-blue-400 flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
                 {words.map((word, i) => (
                   <motion.span
                     key={i}
@@ -70,19 +70,14 @@ const CAD = () => {
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-center justify-center text-center md:text-left"
+            className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-start justify-center text-center md:text-left"
             data-aos="fade-up"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <Section
-              title={
-                <>
-                  <span className="text-orange-300">🧪</span> Product Design &
-                  Prototyping
-                </>
-              }
+              title={"Product Design & Prototyping"}
               data={[
                 "Concept-to-CAD modeling",
                 "Reverse engineering",
@@ -92,12 +87,7 @@ const CAD = () => {
               ]}
             />
             <Section
-              title={
-                <>
-                  <span className="text-blue-300">⚡</span> Electrical & MEP
-                  Drafting
-                </>
-              }
+              title={"Electrical & MEP Drafting"}
               data={[
                 "Schematics & wiring diagrams",
                 "MEP coordination",
@@ -105,11 +95,7 @@ const CAD = () => {
               ]}
             />
             <Section
-              title={
-                <>
-                  <span className="text-pink-300">💻</span> Software Proficiency
-                </>
-              }
+              title={"Software Proficiency"}
               data={[
                 "AutoCAD / AutoCAD MEP",
                 "SolidWorks",
@@ -124,11 +110,8 @@ const CAD = () => {
             data-aos="fade-up"
           >
             <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 transition duration-300">
-                <span className="text-yellow-300 mr-2">📦</span>
-                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
-                  Deliverables
-                </span>
+              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+                Deliverables
               </h3>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
@@ -179,11 +162,8 @@ const CAD = () => {
               </div>
             ))}
             <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 transition duration-300">
-                <span className="text-purple-300 mr-2">🌟</span>
-                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
-                  Why Choose Us?
-                </span>
+              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+                Why Choose Us?
               </h3>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
@@ -223,17 +203,15 @@ const CAD = () => {
 };
 
 interface SectionProps {
-  title: React.ReactNode;
+  title: string;
   data: string[];
 }
 
 const Section: React.FC<SectionProps> = ({ title, data }) => {
   return (
-    <div className="space-y-3 group hover:scale-105 transition duration-300 ease-in-out text-center md:text-left">
-      <h3 className="text-xl font-bold bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-blue-400 transition duration-300">
-        <span className="bg-gradient-to-r from-green-300 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
-          {title}
-        </span>
+    <div className="flex flex-col h-full group hover:scale-105 transition duration-300 ease-in-out text-center md:text-left">
+      <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+        {title}
       </h3>
       <ul className="list-disc list-inside pl-2 text-gray-300 text-base md:text-lg font-semibold space-y-2">
         {data.map((item, i) => (
