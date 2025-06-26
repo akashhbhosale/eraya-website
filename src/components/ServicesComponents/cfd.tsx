@@ -14,14 +14,14 @@ const CFD = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const quote =
-    "Flow visualization reveals the unseen — ERAYA empowers design with fluid intelligence.";
+    "Precision in design is the foundation of innovation and we build it right from the blueprint.";
   const words = quote.split(" ");
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden text-white bg-black py-6 px-6 mt-0">
       <FallingStarsBackground1 />
 
-      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/CFD-bg.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-8 mb-20">
+      <div className="relative z-10 max-w-[90rem] w-full mx-auto bg-[url('/assets/cad-bg-1.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-6 rounded-3xl shadow-2xl space-y-8 mb-20">
         <div className="absolute inset-0 bg-black/60 rounded-3xl z-0" />
 
         <div className="relative z-10">
@@ -32,12 +32,12 @@ const CFD = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-400 to-cyan-300 animate-fade-in drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
-              Computational Fluid Dynamics (CFD)
+            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-blue-500 drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
+              Computer Aided Design (CAD)
             </h1>
 
             <div className="overflow-visible">
-              <motion.p className="text-xl md:text-2xl italic font-bold bg-gradient-to-r from-green-300 via-cyan-200 to-gray-300 bg-clip-text text-transparent flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
+              <motion.p className="text-xl md:text-2xl italic font-bold text-blue-400 flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
                 {words.map((word, i) => (
                   <motion.span
                     key={i}
@@ -60,59 +60,47 @@ const CFD = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            At <span className="font-bold text-white">ERAYA</span>, our CFD
-            Division simulates gas and liquid behavior interacting with surfaces
-            to optimize airflow, pressure, and thermal performance across
-            engineering domains.
+            At <span className="font-bold text-white">ERAYA</span>, our
+            Computer-Aided Design (CAD) Division is at the forefront of digital
+            design. We specialize in precision engineering and delivering
+            detailed, accurate, and efficient CAD solutions that transform ideas
+            into tangible results—serving industries like architecture,
+            manufacturing, engineering, rail, aerospace, automobile,
+            construction, and product design.
           </motion.div>
 
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-center justify-center text-center md:text-left"
+            className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-start justify-center text-center md:text-left"
             data-aos="fade-up"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
             <Section
-              title={
-                <>
-                  <span className="text-orange-300">🌬️</span> Flow & Heat
-                  Transfer Analysis
-                </>
-              }
+              title={"Product Design & Prototyping"}
               data={[
-                "Internal and external flow simulations",
-                "Pressure drop and velocity fields",
-                "Natural and forced convection studies",
-                "Cooling, ventilation, and thermal management",
+                "Concept-to-CAD modeling",
+                "Reverse engineering",
+                "FEA & simulation",
+                "SolidWorks & Fusion 360",
+                "STL files for 3D printing",
               ]}
             />
             <Section
-              title={
-                <>
-                  <span className="text-blue-300">🌀</span> Specialized
-                  Simulations
-                </>
-              }
+              title={"Electrical & MEP Drafting"}
               data={[
-                "Turbulence modeling (RANS, LES)",
-                "Combustion and multiphase flow",
-                "Aerodynamic drag and lift prediction",
-                "HVAC duct optimization and performance",
+                "Schematics & wiring diagrams",
+                "MEP coordination",
+                "Panel layouts & circuit planning",
               ]}
             />
             <Section
-              title={
-                <>
-                  <span className="text-pink-300">💻</span> Software Proficiency
-                </>
-              }
+              title={"Software Proficiency"}
               data={[
-                "ANSYS Fluent / CFX",
-                "SimScale CFD",
-                "OpenFOAM",
-                "SolidWorks Flow Simulation",
-                "Autodesk CFD",
+                "AutoCAD / AutoCAD MEP",
+                "SolidWorks",
+                "Autodesk Revit",
+                "CATIA / NX",
               ]}
             />
           </motion.div>
@@ -122,18 +110,15 @@ const CFD = () => {
             data-aos="fade-up"
           >
             <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 transition duration-300">
-                <span className="text-yellow-300 mr-2">📦</span>
-                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
-                  Deliverables
-                </span>
+              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+                Deliverables
               </h3>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
-                  "High-resolution contour plots and animations",
-                  "Velocity, pressure, and temperature distributions",
-                  "Simulation summary reports",
-                  "Design improvement suggestions",
+                  "DWG, DXF, STL, STEP, and PDF file formats",
+                  "3D models, exploded views, and assembly instructions",
+                  "Complete technical drawings with GD&T",
+                  "Cloud-based file sharing & collaboration",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -144,7 +129,7 @@ const CFD = () => {
                 ))}
               </ul>
             </div>
-            {["/assets/cfd-1.png", "/assets/cfd-5.png"].map((src, i) => (
+            {["/assets/cad-5.png", "/assets/cad-6.png"].map((src, i) => (
               <div
                 key={i}
                 className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
@@ -163,7 +148,7 @@ const CFD = () => {
             className="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-6 mt-16 transition-transform duration-300 hover:scale-[1.01] hover:bg-white/5 rounded-xl p-4 w-full"
             data-aos="fade-up"
           >
-            {["/assets/cfd-3.png", "/assets/cfd-4.png"].map((src, i) => (
+            {["/assets/cad-7.png", "/assets/cad-8.png"].map((src, i) => (
               <div
                 key={i}
                 className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
@@ -177,19 +162,16 @@ const CFD = () => {
               </div>
             ))}
             <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 transition duration-300">
-                <span className="text-purple-300 mr-2">🌟</span>
-                <span className="bg-gradient-to-r from-green-300 via-blue-300 to-cyan-400 bg-clip-text text-transparent">
-                  Why Choose Us?
-                </span>
+              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+                Why Choose Us?
               </h3>
               <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
-                  "Industry-relevant simulation experience",
-                  "Cost-efficient virtual prototyping",
-                  "Visual analysis of fluid-structure interaction",
-                  "Enhanced product design performance",
-                  "Skilled CFD engineers with domain expertise",
+                  "High Accuracy & Industry Standards",
+                  "Fast Turnaround Times",
+                  "Experienced CAD Designers & Engineers",
+                  "Scalable for Projects of All Sizes",
+                  "Integration with Manufacturing & Construction",
                 ].map((item, i) => (
                   <li
                     key={i}
@@ -221,17 +203,15 @@ const CFD = () => {
 };
 
 interface SectionProps {
-  title: React.ReactNode;
+  title: string;
   data: string[];
 }
 
 const Section: React.FC<SectionProps> = ({ title, data }) => {
   return (
-    <div className="space-y-3 group hover:scale-105 transition duration-300 ease-in-out text-center md:text-left">
-      <h3 className="text-xl font-bold bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:to-blue-400 transition duration-300">
-        <span className="bg-gradient-to-r from-green-300 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
-          {title}
-        </span>
+    <div className="flex flex-col h-full group hover:scale-105 transition duration-300 ease-in-out text-center md:text-left">
+      <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+        {title}
       </h3>
       <ul className="list-disc list-inside pl-2 text-gray-300 text-base md:text-lg font-semibold space-y-2">
         {data.map((item, i) => (
