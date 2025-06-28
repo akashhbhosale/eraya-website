@@ -52,9 +52,8 @@ const CFD = () => {
               </motion.p>
             </div>
           </motion.div>
-
           <motion.div
-            className="text-lg font-semibold text-gray-200 leading-relaxed mt-6 text-center md:text-left"
+            className="text-xl font-semibold text-white leading-relaxed mt-6 text-justify md:text-justify"
             data-aos="fade-up"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -63,14 +62,13 @@ const CFD = () => {
             At <span className="font-bold text-white">ERAYA</span>, our
             Computer-Aided Design (CAD) Division is at the forefront of digital
             design. We specialize in precision engineering and delivering
-            detailed, accurate, and efficient CAD solutions that transform ideas
-            into tangible results—serving industries like architecture,
+            detailed, accurate and efficient CAD solutions that transform ideas
+            into tangible results serving industries like architecture,
             manufacturing, engineering, rail, aerospace, automobile,
             construction, and product design.
           </motion.div>
-
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-3 gap-x-4 gap-y-10 mt-10 items-start justify-center text-center md:text-left"
+            className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-x-8 mt-10 items-stretch w-full overflow-visible"
             data-aos="fade-up"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
@@ -104,16 +102,17 @@ const CFD = () => {
               ]}
             />
           </motion.div>
-
+          {/* Deliverables */}
           <div
-            className="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-6 mt-16 transition-transform duration-300 hover:scale-[1.01] hover:bg-white/5 rounded-xl p-4 w-full"
+            className="flex flex-col md:flex-row items-start justify-between text-center md:text-left gap-6 mt-16 border border-blue-400 rounded-2xl bg-black transition-transform duration-300 hover:scale-[1.01] hover:bg-black p-6 w-full"
             data-aos="fade-up"
           >
-            <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+            {/* TEXT SECTION */}
+            <div className="w-full md:w-1/3 flex flex-col justify-start">
+              <h3 className="text-2xl font-bold text-blue-400 transition duration-300">
                 Deliverables
               </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
+              <ul className="list-disc list-outside pl-6 space-y-2 mt-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
                   "DWG, DXF, STL, STEP, and PDF file formats",
                   "3D models, exploded views, and assembly instructions",
@@ -122,50 +121,63 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-cyan-400 hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
                 ))}
               </ul>
             </div>
-            {["/assets/cad-5.png", "/assets/cad-6.png"].map((src, i) => (
-              <div
-                key={i}
-                className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
-                onClick={() => setSelectedImage(src)}
-              >
-                <img
-                  src={src}
-                  alt={`Deliverable ${i + 1}`}
-                  className="rounded-2xl shadow-xl object-cover w-full h-48 md:h-56"
-                />
-              </div>
-            ))}
+
+            {/* IMAGE 1 */}
+            <div
+              className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
+              onClick={() => setSelectedImage("/assets/cad-5.png")}
+            >
+              <img
+                src="/assets/cad-5.png"
+                alt="Deliverable 1"
+                className="rounded-2xl shadow-xl object-cover w-full h-48 md:h-56"
+              />
+            </div>
+
+            {/* IMAGE 2 */}
+            <div
+              className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
+              onClick={() => setSelectedImage("/assets/cad-6.png")}
+            >
+              <img
+                src="/assets/cad-6.png"
+                alt="Deliverable 2"
+                className="rounded-2xl shadow-xl object-cover w-full h-48 md:h-56"
+              />
+            </div>
           </div>
 
+          {/*  Why Choose Us*/}
           <div
-            className="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-6 mt-16 transition-transform duration-300 hover:scale-[1.01] hover:bg-white/5 rounded-xl p-4 w-full"
+            className="flex flex-col md:flex-row items-start justify-center text-center md:text-left gap-6 mt-16 border border-blue-400 rounded-2xl bg-black transition-transform duration-300 hover:scale-[1.01] hover:bg-black p-6 w-full"
             data-aos="fade-up"
           >
             {["/assets/cad-7.png", "/assets/cad-8.png"].map((src, i) => (
               <div
                 key={i}
-                className="w-full md:w-1/4 transition-transform duration-300 hover:scale-105 cursor-pointer"
+                className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
                 onClick={() => setSelectedImage(src)}
               >
                 <img
                   src={src}
                   alt={`Why Choose Us ${i + 1}`}
-                  className="rounded-2xl shadow-xl object-cover w-full h-auto"
+                  className="rounded-2xl shadow-xl object-cover w-full h-full"
                 />
               </div>
             ))}
-            <div className="w-full md:w-1/2">
-              <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
+
+            <div className="w-full md:w-1/3 flex flex-col justify-start">
+              <h3 className="text-2xl font-bold text-blue-400 transition duration-300">
                 Why Choose Us?
               </h3>
-              <ul className="list-disc list-inside space-y-2 text-gray-300 text-base md:text-lg font-semibold">
+              <ul className="list-disc list-outside pl-6 space-y-2 mt-2 text-gray-300 text-base md:text-lg font-semibold">
                 {[
                   "High Accuracy & Industry Standards",
                   "Fast Turnaround Times",
@@ -175,7 +187,7 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-cyan-400 hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
@@ -209,13 +221,14 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ title, data }) => {
   return (
-    <div className="flex flex-col h-full group hover:scale-105 transition duration-300 ease-in-out text-center md:text-left">
-      <h3 className="text-2xl font-bold mb-3 text-blue-400 transition duration-300">
-        {title}
-      </h3>
-      <ul className="list-disc list-inside pl-2 text-gray-300 text-base md:text-lg font-semibold space-y-2">
+    <div className="flex flex-col h-full px-4 py-6 border border-blue-400 rounded-2xl group hover:scale-105 transition duration-300 ease-in-out transform-gpu will-change-transform bg-black text-center">
+      {/* ✅ Centered Heading */}
+      <h3 className="text-2xl font-bold mb-2 text-blue-400">{title}</h3>
+
+      {/* ✅ Proper Bullet List (left-aligned inside centered box) */}
+      <ul className="list-disc list-inside text-gray-300 text-base md:text-lg font-semibold space-y-2 text-justify px-4 w-full max-w-[90%] mx-auto">
         {data.map((item, i) => (
-          <li key={i} className="hover:text-cyan-400 transition duration-200">
+          <li key={i} className="hover:text-white transition duration-200">
             {item}
           </li>
         ))}
