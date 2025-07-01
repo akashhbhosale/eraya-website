@@ -187,7 +187,7 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-yellow-400 hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
@@ -228,7 +228,7 @@ const Section: React.FC<SectionProps> = ({ title, data }) => {
       {/* ✅ Proper Bullet List (left-aligned inside centered box) */}
       <ul className="list-disc list-inside text-gray-300 text-base md:text-lg font-semibold space-y-2 text-justify px-4 w-full max-w-[90%] mx-auto">
         {data.map((item, i) => (
-          <li key={i} className="hover:text-white transition duration-200">
+          <li key={i} className="hover:text-red-400 transition duration-200">
             {item}
           </li>
         ))}
