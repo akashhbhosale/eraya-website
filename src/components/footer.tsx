@@ -61,7 +61,7 @@ export function Footer() {
               <h2 className="text-white text-2xl font-semibold mb-4 font-ailerons">
                 ERAYA
               </h2>
-              <p className="mb-4 text-md">
+              <p className="mb-4 text-md text-justify">
                 Eraya excels in engineering, precision manufacturing, and talent
                 innovation, delivering cutting-edge solutions with excellence
                 and craftsmanship.
