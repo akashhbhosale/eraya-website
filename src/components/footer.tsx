@@ -64,7 +64,7 @@ export function Footer() {
               <p className="mb-4 text-md text-justify">
                 Eraya excels in engineering, precision manufacturing, and talent
                 innovation, delivering cutting-edge solutions with excellence
-                and craftsmanship.
+                and craftsmanship to global customers.
               </p>
             </div>
 
