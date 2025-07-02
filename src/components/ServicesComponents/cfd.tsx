@@ -31,7 +31,7 @@ const CFD = () => {
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-blue-500 drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-white drop-shadow-2xl mb-10 leading-tight tracking-wide text-center">
               Computer Aided Design (CAD)
             </h1>
 
