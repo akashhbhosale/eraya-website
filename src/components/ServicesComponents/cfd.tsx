@@ -15,7 +15,6 @@ const CFD = () => {
 
   const quote =
     "Precision in design is the foundation of innovation and we build it right from the blueprint.";
-  const words = quote.split(" ");
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden text-white bg-black py-6 px-6 mt-0">
@@ -36,22 +35,16 @@ const CFD = () => {
               Computer Aided Design (CAD)
             </h1>
 
-            <div className="overflow-visible">
-              <motion.p className="text-xl md:text-2xl italic font-bold text-blue-400 flex flex-wrap justify-center gap-1 mt-6 leading-[1.5] whitespace-pre-wrap">
-                {words.map((word, i) => (
-                  <motion.span
-                    key={i}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ delay: i * 0.2 }}
-                    className="hover:underline transition duration-200 font-bold"
-                  >
-                    {word}
-                  </motion.span>
-                ))}
-              </motion.p>
-            </div>
+            <motion.p
+              className="text-xl md:text-2xl italic font-bold text-blue-400 mt-6 leading-relaxed text-center px-4"
+              initial={{ opacity: 0, x: -100 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+            >
+              {quote}
+            </motion.p>
           </motion.div>
+
           <motion.div
             className="text-xl font-semibold text-white leading-relaxed mt-6 text-justify md:text-justify"
             data-aos="fade-up"
@@ -67,6 +60,7 @@ const CFD = () => {
             manufacturing, engineering, rail, aerospace, automobile,
             construction, and product design.
           </motion.div>
+
           <motion.div
             className="grid grid-cols-1 md:grid-cols-3 gap-y-10 md:gap-x-8 mt-10 items-stretch w-full overflow-visible"
             data-aos="fade-up"
@@ -102,13 +96,16 @@ const CFD = () => {
               ]}
             />
           </motion.div>
+
           {/* Deliverables */}
+
+          {/* Deliverables Section */}
           <div
-            className="flex flex-col md:flex-row items-start justify-between text-center md:text-left gap-6 mt-16 border border-blue-400 rounded-2xl bg-black transition-transform duration-300 hover:scale-[1.01] hover:bg-black p-6 w-full"
+            className="flex flex-col md:flex-row items-stretch justify-between gap-6 mt-16 w-full"
             data-aos="fade-up"
           >
-            {/* TEXT SECTION */}
-            <div className="w-full md:w-1/3 flex flex-col justify-start">
+            {/* TEXT BOX */}
+            <div className="w-full md:w-1/3 flex flex-col justify-start border border-blue-400 rounded-xl p-6 bg-[#0c0c0c]">
               <h3 className="text-2xl font-bold text-blue-400 transition duration-300">
                 Deliverables
               </h3>
@@ -121,7 +118,7 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-yellow-400 hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
@@ -129,51 +126,70 @@ const CFD = () => {
               </ul>
             </div>
 
+            {/* IMAGE 1 - Vertical (No Border) */}
+            <div
+              className="w-full md:w-1/3 flex flex-col cursor-pointer transition-transform duration-300 hover:scale-105 focus:outline-none active:outline-none rounded-xl overflow-hidden"
+              onClick={() => setSelectedImage("/assets/cad-5.png")}
+              tabIndex={-1}
+            >
+              <div className="flex-grow h-full w-full">
+                <img
+                  src="/assets/cad-5.png"
+                  alt="Deliverable 1"
+                  className="w-full h-full object-cover rounded-2xl shadow-xl"
+                />
+              </div>
+            </div>
+
+            {/* IMAGE 2 - Landscape (No Border) */}
+            <div
+              className="w-full md:w-1/3 flex flex-col cursor-pointer transition-transform duration-300 hover:scale-105 focus:outline-none active:outline-none rounded-xl overflow-hidden"
+              onClick={() => setSelectedImage("/assets/cad-6.png")}
+              tabIndex={-1}
+            >
+              <div className="flex-grow h-full w-full">
+                <img
+                  src="/assets/cad-6.png"
+                  alt="Deliverable 2"
+                  className="w-full h-full object-cover rounded-2xl shadow-xl"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Why Choose Us */}
+          <div
+            className="flex flex-col md:flex-row items-stretch justify-center gap-6 mt-16 w-full"
+            data-aos="fade-up"
+          >
             {/* IMAGE 1 */}
             <div
-              className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
-              onClick={() => setSelectedImage("/assets/cad-5.png")}
+              className="w-full md:w-1/3 flex flex-col cursor-pointer transition-transform duration-300 hover:scale-105 focus:outline-none active:outline-none"
+              onClick={() => setSelectedImage("/assets/cad-7.png")}
+              tabIndex={-1}
             >
               <img
-                src="/assets/cad-5.png"
-                alt="Deliverable 1"
-                className="rounded-2xl shadow-xl object-cover w-full h-48 md:h-56"
+                src="/assets/cad-7.png"
+                alt="Why Choose Us 1"
+                className="w-full h-full object-cover rounded-2xl shadow-xl"
               />
             </div>
 
             {/* IMAGE 2 */}
             <div
-              className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
-              onClick={() => setSelectedImage("/assets/cad-6.png")}
+              className="w-full md:w-1/3 flex flex-col cursor-pointer transition-transform duration-300 hover:scale-105 focus:outline-none active:outline-none"
+              onClick={() => setSelectedImage("/assets/cad-8.png")}
+              tabIndex={-1}
             >
               <img
-                src="/assets/cad-6.png"
-                alt="Deliverable 2"
-                className="rounded-2xl shadow-xl object-cover w-full h-48 md:h-56"
+                src="/assets/cad-8.png"
+                alt="Why Choose Us 2"
+                className="w-full h-full object-cover rounded-2xl shadow-xl"
               />
             </div>
-          </div>
 
-          {/*  Why Choose Us*/}
-          <div
-            className="flex flex-col md:flex-row items-start justify-center text-center md:text-left gap-6 mt-16 border border-blue-400 rounded-2xl bg-black transition-transform duration-300 hover:scale-[1.01] hover:bg-black p-6 w-full"
-            data-aos="fade-up"
-          >
-            {["/assets/cad-7.png", "/assets/cad-8.png"].map((src, i) => (
-              <div
-                key={i}
-                className="w-full md:w-1/3 flex flex-col transition-transform duration-300 hover:scale-105 cursor-pointer"
-                onClick={() => setSelectedImage(src)}
-              >
-                <img
-                  src={src}
-                  alt={`Why Choose Us ${i + 1}`}
-                  className="rounded-2xl shadow-xl object-cover w-full h-full"
-                />
-              </div>
-            ))}
-
-            <div className="w-full md:w-1/3 flex flex-col justify-start">
+            {/* TEXT BOX */}
+            <div className="w-full md:w-1/3 flex flex-col justify-start border border-blue-400 rounded-xl p-6 bg-[#0c0c0c]">
               <h3 className="text-2xl font-bold text-blue-400 transition duration-300">
                 Why Choose Us?
               </h3>
@@ -221,12 +237,9 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ title, data }) => {
   return (
-    <div className="flex flex-col h-full px-4 py-6 border border-blue-400 rounded-2xl group hover:scale-105 transition duration-300 ease-in-out transform-gpu will-change-transform bg-black text-center">
-      {/* ✅ Centered Heading */}
+    <div className="flex flex-col h-full px-4 py-4 border border-blue-400 rounded-2xl group hover:scale-105 transition duration-300 ease-in-out transform-gpu will-change-transform bg-black text-center">
       <h3 className="text-2xl font-bold mb-2 text-blue-400">{title}</h3>
-
-      {/* ✅ Proper Bullet List (left-aligned inside centered box) */}
-      <ul className="list-disc list-inside text-gray-300 text-base md:text-lg font-semibold space-y-2 text-justify px-4 w-full max-w-[90%] mx-auto">
+      <ul className="list-disc list-outside pl-6 text-gray-300 text-base md:text-lg font-semibold space-y-2 text-justify w-full max-w-[90%] mx-auto">
         {data.map((item, i) => (
           <li key={i} className="hover:text-red-400 transition duration-200">
             {item}
