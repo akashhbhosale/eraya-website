@@ -118,7 +118,7 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-yellow-400 hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
@@ -141,7 +141,7 @@ const CFD = () => {
               </div>
             </div>
 
-            {/* IMAGE 2 - Landscape (No Border) */}
+            {/* IMAGE 2  */}
             <div
               className="w-full md:w-1/3 flex flex-col cursor-pointer transition-transform duration-300 hover:scale-105 focus:outline-none active:outline-none rounded-xl overflow-hidden"
               onClick={() => setSelectedImage("/assets/cad-6.png")}
@@ -203,7 +203,7 @@ const CFD = () => {
                 ].map((item, i) => (
                   <li
                     key={i}
-                    className="hover:text-yellow-400 hover:scale-[1.02] transform origin-left transition duration-300"
+                    className="hover:text-white hover:scale-[1.02] transform origin-left transition duration-300"
                   >
                     {item}
                   </li>
@@ -241,7 +241,7 @@ const Section: React.FC<SectionProps> = ({ title, data }) => {
       <h3 className="text-2xl font-bold mb-2 text-blue-400">{title}</h3>
       <ul className="list-disc list-outside pl-6 text-gray-300 text-base md:text-lg font-semibold space-y-2 text-justify w-full max-w-[90%] mx-auto">
         {data.map((item, i) => (
-          <li key={i} className="hover:text-red-400 transition duration-200">
+          <li key={i} className="hover:text-white transition duration-200">
             {item}
           </li>
         ))}

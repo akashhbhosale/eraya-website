@@ -54,8 +54,8 @@ export function Footer() {
           <div className="absolute top-[55%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-1/3 h-px bg-gradient-to-r from-transparent via-gray-400 to-transparent" />
         </div>
 
-        <div className="py-12 pt-10">
-          <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 text-center sm:text-start">
+        <div className="py-12 pt-10 px-6">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 text-center items-start">
             {/* Column 1: Brand */}
             <div>
               <h2 className="text-white text-2xl font-semibold mb-4 font-ailerons">
@@ -122,7 +122,7 @@ export function Footer() {
               <h2 className="text-white text-lg font-semibold mb-4">
                 Follow Us
               </h2>
-              <div className="flex space-x-4 text-2xl justify-center sm:justify-start">
+              <div className="flex space-x-4 text-2xl justify-center ">
                 {socialLinks.map((link) => (
                   <a key={link.label} href={link.href} aria-label={link.label}>
                     {link.icon}
@@ -136,15 +136,15 @@ export function Footer() {
               <h2 className="text-white text-lg font-semibold mb-4">
                 Contact Us
               </h2>
-              <div className="flex items-center justify-center sm:justify-start gap-2">
+              <div className="flex items-center justify-center gap-2">
                 <FaMapMarkerAlt className="text-white" />
-                <p>London, UK</p>
+                <p>Telford,UK</p>
               </div>
-              <div className="flex items-center gap-2 justify-center sm:justify-start">
+              <div className="flex items-center justify-center gap-2">
                 <FaMapMarkerAlt className="text-white" />
-                <p>London E1 6AN</p>
+                <p>TF1 6TH</p>
               </div>
-              <div className="flex items-center gap-2 justify-center sm:justify-start">
+              <div className="flex items-center justify-center gap-2">
                 <MdOutlineMail className="text-white" />
                 <a
                   href="mailto:eraya@insturment.com"
@@ -153,13 +153,13 @@ export function Footer() {
                   eraya@insturment.com
                 </a>
               </div>
-              <div className="flex items-center gap-2 justify-center sm:justify-start">
+              <div className="flex items-center justify-center gap-2">
                 <FaPhoneAlt className="text-white" />
                 <a
                   href="tel:+11234567890"
                   className="text-blue-400 hover:underline"
                 >
-                  (123) 456-7890
+                  07494306431
                 </a>
               </div>
             </div>
