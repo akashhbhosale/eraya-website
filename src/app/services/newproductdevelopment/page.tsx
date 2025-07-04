@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 
 const NPD = dynamic(
-  () => import("@/components/ServicesComponents/newproductdevelopment"),
+  () => import("@/components/ServicesComponents/NewProductDevelopment"),
   {
     ssr: false,
   }

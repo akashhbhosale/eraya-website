@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 
 const DesignOptimization = dynamic(
-  () => import("@/components/ServicesComponents/designoptimization"),
+  () => import("@/components/ServicesComponents/DesignOptimization"),
   {
     ssr: false,
   }

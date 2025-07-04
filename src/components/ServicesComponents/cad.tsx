@@ -6,6 +6,7 @@ export default function CAD() {
       title="Computer Aided Design (CAD)"
       quote="Precision in design is the foundation of innovation and we build it right from the blueprint."
       intro="At ERAYA, our Computer-Aided Design (CAD) Division is at the forefront of digital design. We specialize in precision engineering and delivering detailed, accurate and efficient CAD solutions that transform ideas into tangible results serving industries like architecture, manufacturing, engineering, rail, aerospace, automobile, construction, and product design."
+      backgroundImage="/assets/cad-bg-1.png" // ✅ Custom background for CAD page
       sections={[
         {
           title: "Product Design & Prototyping",

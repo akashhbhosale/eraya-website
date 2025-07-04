@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 
 const ConceptDevelopment = dynamic(
-  () => import("@/components/ServicesComponents/conceptdevelopment"),
+  () => import("@/components/ServicesComponents/ConceptDevelopment"),
   { ssr: false }
 );
 

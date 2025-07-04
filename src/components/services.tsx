@@ -105,7 +105,7 @@ export default function Services() {
                       <TreeNode
                         label={
                           <GreatGrandChild
-                            link="/services/designoptimization"
+                            link="/services/DesignOptimization"
                             title="Design Optimization"
                           />
                         }
@@ -117,7 +117,7 @@ export default function Services() {
               <TreeNode
                 label={
                   <GrandChild
-                    link="/services/productdevelopment"
+                    link="/services/ProductDevelopment"
                     title="Product Development"
                   />
                 }
@@ -125,7 +125,7 @@ export default function Services() {
                 <TreeNode
                   label={
                     <GreatGrandChild
-                      link="/services/newproductdevelopment"
+                      link="/services/NewProductDevelopment"
                       title="New Product Development (NPD)"
                     />
                   }
@@ -133,7 +133,7 @@ export default function Services() {
                   <TreeNode
                     label={
                       <GreatGrandChild
-                        link="/services/disruptiveinnovation"
+                        link="/services/DisruptiveInnovation"
                         title="Disruptive Innovation"
                       />
                     }
@@ -141,7 +141,7 @@ export default function Services() {
                     <TreeNode
                       label={
                         <GreatGrandChild
-                          link="/services/conceptdevelopment"
+                          link="/services/ConceptDevelopment"
                           title="Concept Development"
                         />
                       }
@@ -149,7 +149,7 @@ export default function Services() {
                       <TreeNode
                         label={
                           <GreatGrandChild
-                            link="/services/prototyping"
+                            link="/services/Prototyping"
                             title="Prototyping"
                           />
                         }

@@ -5,7 +5,7 @@ import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 
 const DisruptiveInnovation = dynamic(
-  () => import("@/components/ServicesComponents/disruptiveinnovation"),
+  () => import("@/components/ServicesComponents/DisruptiveInnovation"),
   {
     ssr: false,
   }

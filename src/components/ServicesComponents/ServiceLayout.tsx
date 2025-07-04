@@ -20,6 +20,7 @@ interface ServiceLayoutProps {
   deliverableImages: string[];
   whyChooseUs: string[];
   whyChooseUsImages: string[];
+  backgroundImage?: string;
 }
 
 const ServiceLayout: React.FC<ServiceLayoutProps> = ({
@@ -31,6 +32,7 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
   deliverableImages,
   whyChooseUs,
   whyChooseUsImages,
+  backgroundImage = "/assets/default-bg.png",
 }) => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
@@ -42,11 +44,13 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
     <div className="relative min-h-screen w-full overflow-hidden text-white bg-black py-6 px-4 sm:px-6 md:px-10 lg:px-16">
       <FallingStarsBackground1 />
 
-      <div className="relative z-10 max-w-[90rem] mx-auto bg-[url('/assets/cad-bg-1.png')] bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-4 sm:px-6 md:px-10 rounded-3xl shadow-2xl space-y-8 mb-20">
+      <div
+        className="relative z-10 max-w-[90rem] mx-auto bg-cover bg-center bg-no-repeat backdrop-blur-xl border border-white/10 pt-6 pb-12 px-4 sm:px-6 md:px-10 rounded-3xl shadow-2xl space-y-8 mb-20"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
         <div className="absolute inset-0 bg-[#0c0c0c]/60 rounded-3xl z-0" />
 
         <div className="relative z-10">
-          {/* Heading and Quote */}
           <motion.div
             className="text-center mt-2 mb-10"
             data-aos="zoom-in"
@@ -68,7 +72,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
             </motion.p>
           </motion.div>
 
-          {/* Intro Paragraph — width matched to grid */}
           <motion.p
             className="text-base sm:text-lg md:text-xl font-medium leading-relaxed text-justify"
             data-aos="fade-up"
@@ -79,7 +82,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
             {intro}
           </motion.p>
 
-          {/* Feature Sections */}
           <motion.div
             className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 mt-10 items-stretch"
             data-aos="fade-up"
@@ -92,12 +94,10 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
             ))}
           </motion.div>
 
-          {/* Deliverables Section */}
           <div
             className="flex flex-col md:flex-row items-stretch justify-between gap-6 mt-16"
             data-aos="fade-up"
           >
-            {/* Text Block */}
             <div className="w-full md:w-1/3 border border-blue-400 rounded-xl p-6 bg-[#0c0c0c]">
               <h3 className="text-2xl font-bold text-blue-400">Deliverables</h3>
               <ul className="list-disc list-outside pl-5 mt-3 space-y-2 text-gray-300 text-base sm:text-lg font-semibold">
@@ -112,7 +112,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               </ul>
             </div>
 
-            {/* Deliverable Images */}
             {deliverableImages.map((img, i) => (
               <div
                 key={i}
@@ -128,7 +127,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
             ))}
           </div>
 
-          {/* Why Choose Us Section */}
           <div
             className="flex flex-col md:flex-row items-stretch justify-center gap-6 mt-16"
             data-aos="fade-up"
@@ -147,7 +145,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
               </div>
             ))}
 
-            {/* Text Block */}
             <div className="w-full md:w-1/3 border border-blue-400 rounded-xl p-6 bg-[#0c0c0c]">
               <h3 className="text-2xl font-bold text-blue-400">
                 Why Choose Us?
@@ -167,7 +164,6 @@ const ServiceLayout: React.FC<ServiceLayoutProps> = ({
         </div>
       </div>
 
-      {/* Fullscreen Image Preview */}
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center"

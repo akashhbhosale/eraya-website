@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 
 // Lazy-load the ProductDevelopment component
 const ProductDevelopment = dynamic(
-  () => import("@/components/ServicesComponents/productdevelopment"),
+  () => import("@/components/ServicesComponents/ProductDevelopment"),
   { ssr: false }
 );
 
