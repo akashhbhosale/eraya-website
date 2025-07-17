@@ -69,11 +69,11 @@ export default function Services() {
             lineBorderRadius={"10px"}
             label={<Parent link="/" title="ERAYA" />}
           >
-            <TreeNode label={<Child link="/" title="Design and Enginnering" />}>
+            <TreeNode label={<Child link="/" title="Design and Engineering" />}>
               <TreeNode
                 label={
                   <GrandChild
-                    link="/services"
+                    link="/services/ComputerAidedEngineeringServices"
                     title="Computer Aided Engineering Services"
                   />
                 }
@@ -82,7 +82,7 @@ export default function Services() {
                   label={
                     <GreatGrandChild
                       link="/services/cad"
-                      title="Computer Aided Design(CAD)"
+                      title="Computer Aided Design (CAD)"
                     />
                   }
                 >
@@ -275,32 +275,32 @@ export default function Services() {
                     <TreeNode
                       label={
                         <GreatGrandChild
-                          link="/services/CastedProducts"
-                          title="Casted Products"
+                          link="/services/SpecialisedWelding"
+                          title="Specialised Welding to BS EN 15085"
                         />
                       }
                     >
                       <TreeNode
                         label={
                           <GreatGrandChild
-                            link="/services/InjectionMoulded"
-                            title="Injection Moulded"
+                            link="/services/SpecialisedBonding"
+                            title="Specialised Bonding - EN17460"
                           />
                         }
                       >
                         <TreeNode
                           label={
                             <GreatGrandChild
-                              link="/services/SpecialisedBonding"
-                              title="Specialised Bonding - EN17460"
+                              link="/services/CastedProducts"
+                              title="Casted Aluminium Products"
                             />
                           }
                         >
                           <TreeNode
                             label={
                               <GreatGrandChild
-                                link="/services/SpecialisedWelding"
-                                title="Specialised Welding to BS EN 15085"
+                                link="/services/InjectionMoulded"
+                                title="Injection Moulded Products"
                               />
                             }
                           ></TreeNode>
