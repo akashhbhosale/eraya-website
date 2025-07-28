@@ -11,8 +11,8 @@ export default function CastedProducts() {
         {
           title: "Casting Processes & Capabilities",
           data: [
-            "Sand casting, investment casting, and die casting",
-            "Ferrous & non-ferrous alloys (aluminum, steel, bronze, etc.)",
+            "Sand casting, investment casting, and gravity die casting",
+            "Aluminum and Steel Castings",
             "Tooling and pattern development",
             "Low-volume prototyping to high-volume production",
           ],

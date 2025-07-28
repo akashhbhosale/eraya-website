@@ -15,6 +15,7 @@ export default function SpecialisedWelding() {
             "Fillet, butt, and complex joint configurations",
             "Automated and semi-automated welding stations",
             "Welding in accordance with WPS/PQR documentation",
+            "Welding in accordance with WPS/WPQR documentation",
           ],
         },
         {

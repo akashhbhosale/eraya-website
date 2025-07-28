@@ -52,6 +52,7 @@ export default function EnvironmentalTesting() {
         "Rapid setup and testing cycles",
         "Support for R&D, QA, and compliance teams",
         "Validated results aligned with global standards",
+        "Onsite engineering support for all testings",
       ]}
       whyChooseUsImages={[
         "/assets/EnvironmentalTesting-3.png",

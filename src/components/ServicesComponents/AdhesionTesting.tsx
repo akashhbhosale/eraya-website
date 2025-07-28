@@ -40,6 +40,7 @@ export default function AdhesionTesting() {
         "Images of bond interface and fracture analysis",
         "Surface preparation and treatment recommendations",
         "Pass/fail criteria based on standards (ASTM D4541, ISO 4624, etc.)",
+        "Bonding procedures for industrial applications",
       ]}
       deliverableImages={[
         "/assets/AdhesionTesing-1.png",
@@ -51,6 +52,7 @@ export default function AdhesionTesting() {
         "High-precision measurement and analysis tools",
         "Applicable across coatings, adhesives, and composites",
         "Expert recommendations for better surface bonding",
+        "Detailed support in bonding document preparation and team training",
       ]}
       whyChooseUsImages={[
         "/assets/AdhesionTesing-4.png",

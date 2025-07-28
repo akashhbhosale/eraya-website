@@ -29,7 +29,8 @@ export default function DesignOptimization() {
         {
           title: "Software Proficiency",
           data: [
-            "ANSYS OptiSLang",
+            "ANSYS DesignXplorer ",
+            "Altair OptiStruct / Inspire",
             "SolidWorks Simulation",
             "Altair HyperStudy",
             "MATLAB Optimization Toolbox",

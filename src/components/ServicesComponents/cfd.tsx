@@ -24,6 +24,7 @@ export default function CFD() {
             "Combustion and multiphase flow",
             "Aerodynamic drag and lift prediction",
             "HVAC duct optimization and performance",
+            "Autodesk Moldflow",
           ],
         },
         {

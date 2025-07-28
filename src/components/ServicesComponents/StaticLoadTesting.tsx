@@ -13,7 +13,7 @@ export default function StaticLoadTesting() {
         {
           title: "Structural Load Testing",
           data: [
-            "Load-bearing capacity analysis",
+            "Load-bearing capacity analysis and physical testing",
             "Beam, joint, and frame evaluations",
             "Deflection and stress distribution monitoring",
             "Material deformation assessment",
@@ -22,7 +22,7 @@ export default function StaticLoadTesting() {
         {
           title: "Component & Assembly Testing",
           data: [
-            "Mechanical part strength validation",
+            "Mechanical part strength validation through FEA and physical testing",
             "Bolted and welded joint inspections",
             "Long-duration stress tests",
             "Weight resistance of brackets, housings, mounts",
@@ -32,7 +32,7 @@ export default function StaticLoadTesting() {
           title: "Simulation + Testing Integration",
           data: [
             "FEA model correlation",
-            "Validation of static analysis results",
+            "Validation of static analysis results with physical tests",
             "Failure point identification",
             "Load case optimization for design feedback",
           ],
@@ -41,8 +41,10 @@ export default function StaticLoadTesting() {
       deliverables={[
         "Static load test procedure & setup documentation",
         "Real-time and recorded measurement data",
+        "Physical Static Load Testing in-house and with Certified Test Labs",
         "Pass/fail results with stress/strain summaries",
         "Recommendations for load-driven design improvements",
+        "Onsite support by our qualified and experienced engineers",
       ]}
       deliverableImages={[
         "/assets/staticloadtesting-1.png",

@@ -15,6 +15,7 @@ export default function SpecialisedBonding() {
             "Hybrid bonding with mechanical reinforcements",
             "Multi-surface and dissimilar material bonding",
             "Thermally and chemically resistant bonds",
+            "European Adhesive Specialist (EAS) onboard for bonding validation & production support",
           ],
         },
         {
@@ -48,6 +49,7 @@ export default function SpecialisedBonding() {
       ]}
       whyChooseUs={[
         "Certified bonding process as per EN 17460",
+        "Certified European Adhesive Specialist (EAS) onboard",
         "Expertise in bonding dissimilar and complex surfaces",
         "Controlled environment for high-performance adhesion",
         "Process traceability and documentation",

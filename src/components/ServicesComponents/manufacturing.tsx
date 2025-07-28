@@ -49,7 +49,7 @@ export default function Manufacturing() {
         "Precision manufacturing with rapid turnaround",
         "Multi-material expertise: metal, plastic, wood",
         "Compliance with international standards",
-        "Integrated with CAD, testing, and optimization",
+        "Integrated with CAD,Simulations, testing, and optimization",
         "Client-focused from prototype to production",
       ]}
       whyChooseUsImages={[

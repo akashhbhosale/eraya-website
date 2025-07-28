@@ -21,6 +21,7 @@ export default function SheetMetalFabrication() {
           title: "Welding & Assembly",
           data: [
             "MIG, TIG, and spot welding",
+            "Welding to BS EN 15085",
             "Weld fixture design and batch fabrication",
             "Hardware insertion, clinching, and fastening",
             "Custom assembly of subcomponents and housings",

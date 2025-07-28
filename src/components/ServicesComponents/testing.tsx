@@ -55,6 +55,7 @@ export default function Testing() {
       whyChooseUs={[
         "Extensive in-house and virtual testing capabilities",
         "Customized test protocols per industry standards",
+        "Collaboration with Test Labs in UK, Europe, US & Asia for extensive physical testing’s",
         "Experienced QA engineers and technicians",
         "Rapid turnaround with actionable insights",
         "Compliance-ready documentation support",

@@ -44,6 +44,7 @@ export default function EMFTesting() {
       ]}
       deliverableImages={["/assets/EmfTesing-1.png", "/assets/EmfTesing-2.png"]}
       whyChooseUs={[
+        "Comprehensive in-house and collaboration with test labs for EMF test infrastructure",
         "Comprehensive in-house EMF test infrastructure",
         "Support for global compliance (FCC, CE, IEC)",
         "Electromagnetic-safe design consultation",

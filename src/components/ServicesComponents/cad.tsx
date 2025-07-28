@@ -13,8 +13,7 @@ export default function CAD() {
           data: [
             "Concept-to-CAD modeling",
             "Reverse engineering",
-            "FEA & simulation",
-            "SolidWorks & Fusion 360",
+            "Drafting & Detailed Drawings",
             "STL files for 3D printing",
           ],
         },
@@ -24,6 +23,7 @@ export default function CAD() {
             "Schematics & wiring diagrams",
             "MEP coordination",
             "Panel layouts & circuit planning",
+            "Electrical component definition",
           ],
         },
         {

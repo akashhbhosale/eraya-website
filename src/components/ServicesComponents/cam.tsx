@@ -3,9 +3,9 @@ import ServiceLayout from "@/components/ServicesComponents/ServiceLayout";
 export default function CAM() {
   return (
     <ServiceLayout
-      title="Computer Aided Manufacturing (CAM)"
+      title="Computer Aided Machining (CAM)"
       quote="Smart programming turns precision into performance — ERAYA makes it real through advanced CAM integration."
-      intro="At ERAYA, our Computer-Aided Manufacturing (CAM) Division transforms digital designs into precise, machine-ready outputs. We specialize in CNC programming, toolpath optimization, and machining simulation to deliver intelligent, efficient manufacturing outcomes."
+      intro="At ERAYA, our Computer-Aided Machining (CAM) Division transforms digital designs into precise, machine-ready outputs. We specialize in CNC programming, toolpath optimization, and machining simulation to deliver intelligent, efficient manufacturing outcomes."
       backgroundImage="/assets/cam-bg.png" // ✅ Add your CAM-specific background image here
       sections={[
         {
@@ -23,6 +23,7 @@ export default function CAM() {
             "Direct import of CAD geometry",
             "Simulation & verification",
             "Process planning and sequencing",
+            "Tracked modifications ",
           ],
         },
         {

@@ -1,46 +1,50 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 export default function About() {
   return (
-    <div className="min-h-screen bg-black text-white pt-24 px-6 md:px-10 max-w-7xl mx-auto space-y-16">
+    <div className="min-h-screen py-20  sm:w-full bg-black  bg-dot-white/[0.2] relative flex items-center justify-center">
       {/* Executive Summary */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-        <div>
-          <h1 className="text-4xl font-bold text-blue-400 mb-4">
-            Executive Summary
-          </h1>
-          <p className="text-gray-300 leading-relaxed">
-            <strong>ERAYA</strong> is a global provider of{" "}
-            <strong>Design, Engineering, and Manufacturing Services</strong> to
-            industries such as Rail, Aerospace, Automotive, Defence, Industrial
-            Equipment, Energy & Utilities, Healthcare & Medical Devices, Heavy
-            Machinery, Agriculture & Food processing, Construction &
-            Infrastructure, Marine & Offshore, Consumer Goods,
-            Telecommunications, and more.
-            <br />
-            <br />
-            Our expertise includes <strong>
-              CAD, CAE, FEA, CFD, Testing
-            </strong>{" "}
-            like Crash, Static, Fire, Acoustic, Shock, Vibration, IEC, EMF, and
-            end-to-end Product Development. By leveraging state-of-the-art tools
-            and a skilled team, ERAYA aims to deliver innovative, high-quality,
-            and cost-effective solutions to clients worldwide.
-            <br />
-            <br />
-            Our short-term goal is to build a diverse customer base, while the
-            long-term objective is to expand into new sectors, ensuring
-            consistent innovation and quality.
-          </p>
-        </div>
-        <div>
-          <img
-            src="/assets/ComputerAidedEngiServices-1.png"
-            alt="Executive Summary"
-            className="w-full rounded-lg"
-          />
-        </div>
-      </section>
+
+      <div>
+        <h2 className="text-4xl font-bold text-white mb-4 brightness-100 text-center">
+          Our Team
+        </h2>
+        <h1 className="text-4xl font-bold text-blue-400 mb-4">
+          Executive Summary
+        </h1>
+        <p className="text-gray-300 leading-relaxed">
+          <strong>ERAYA</strong> is a global provider of{" "}
+          <strong>Design, Engineering, and Manufacturing Services</strong> to
+          industries such as Rail, Aerospace, Automotive, Defence, Industrial
+          Equipment, Energy & Utilities, Healthcare & Medical Devices, Heavy
+          Machinery, Agriculture & Food processing, Construction &
+          Infrastructure, Marine & Offshore, Consumer Goods, Telecommunications,
+          and more.
+          <br />
+          <br />
+          Our expertise includes <strong>
+            CAD, CAE, FEA, CFD, Testing
+          </strong>{" "}
+          like Crash, Static, Fire, Acoustic, Shock, Vibration, IEC, EMF, and
+          end-to-end Product Development. By leveraging state-of-the-art tools
+          and a skilled team, ERAYA aims to deliver innovative, high-quality,
+          and cost-effective solutions to clients worldwide.
+          <br />
+          <br />
+          Our short-term goal is to build a diverse customer base, while the
+          long-term objective is to expand into new sectors, ensuring consistent
+          innovation and quality.
+        </p>
+      </div>
+      <div>
+        <img
+          src="/assets/ComputerAidedEngiServices-1.png"
+          alt="Executive Summary"
+          className="w-full rounded-lg"
+        />
+      </div>
 
       {/* Company Description */}
       <section className="bg-[#FF6A00] text-black rounded-xl p-8">

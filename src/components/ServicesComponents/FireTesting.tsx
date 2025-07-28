@@ -36,6 +36,7 @@ export default function FireTesting() {
       ]}
       deliverables={[
         "Fire test procedure documentation",
+        "Fire Test reports against various specific world-wide standards",
         "Real-time thermal response data",
         "Flammability classification report",
         "Visual and technical inspection summaries",
@@ -46,6 +47,8 @@ export default function FireTesting() {
       ]}
       whyChooseUs={[
         "Comprehensive fire testing setups for various materials",
+        "Collaboration with Fire Test Labs in various countries including UK, Europe, US & Asia",
+        "Design/Product improvements for fire compliance",
         "Real-time monitoring and post-test reporting",
         "Alignment with international fire safety standards",
         "Collaboration with design and safety engineering teams",

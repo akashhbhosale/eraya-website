@@ -31,12 +31,13 @@ export default function ProductDevelopment() {
           data: [
             "SolidWorks / CATIA / NX",
             "Autodesk Fusion 360",
-            "ANSYS / SimScale",
+            "ANSYS / LSDYNA / Altair/ SimScale",
             "KeyShot (for rendering & visualization)",
           ],
         },
       ]}
       deliverables={[
+        "Complete product cycle support",
         "Final CAD and engineering drawing packages",
         "Functional and aesthetic prototypes",
         "Design validation reports and test results",
