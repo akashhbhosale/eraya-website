@@ -4,7 +4,7 @@ export default function FeaEngineers() {
   return (
     <ServiceLayout
       title="FEA Engineers"
-      quote="Precision through simulation ERAYA's FEA Engineers ensure your design thrives under real-world forces."
+      quote="Precision through simulation ERAYA's FEA Engineers ensure your design thrives under real world forces."
       intro="Our FEA Engineers at ERAYA provide advanced Finite Element Analysis (FEA) services to evaluate structural performance, durability and safety. We help optimize product designs through in depth simulations that save costs, reduce material use and validate real world resilience before physical prototyping."
       backgroundImage="/assets/FeaEngineers-bg.png"
       sections={[
