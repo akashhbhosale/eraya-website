@@ -4,8 +4,8 @@ export default function DisruptiveInnovation() {
   return (
     <ServiceLayout
       title="Disruptive Innovation"
-      quote="True innovation breaks boundaries — ERAYA drives the future by building what has never existed before."
-      intro="At ERAYA, we empower visionaries to transform industries through Disruptive Innovation. By combining deep technical expertise with bold creative thinking, we help businesses reimagine possibilities, explore breakthrough technologies, and create next-generation solutions that leap ahead of traditional paradigms."
+      quote="True innovation breaks boundaries ERAYA drives the future by building what has never existed before."
+      intro="At ERAYA, we empower visionaries to transform industries through Disruptive Innovation. By combining deep technical expertise with bold creative thinking, we help businesses reimagine possibilities, explore breakthrough technologies and create next generation solutions that leap ahead of traditional paradigms."
       backgroundImage="/assets/disinv-bg.png"
       sections={[
         {
@@ -14,23 +14,23 @@ export default function DisruptiveInnovation() {
             "Emerging tech scouting and feasibility",
             "Business model reinvention support",
             "Disruption mapping and strategic foresight",
-            "MVP design for high-risk, high-impact ideas",
+            "MVP design for high risk, high impact ideas",
           ],
         },
         {
           title: "Deep Tech R&D & Experimentation",
           data: [
-            "Rapid prototyping and fail-fast testing",
+            "Rapid prototyping and fail fast testing",
             "Concept validation through simulation",
             "Experimental hardware/software development",
-            "Cross-domain innovation blending (AI, IoT, Biomech, etc.)",
+            "Cross domain innovation blending (AI, IoT, Biomech, etc.)",
           ],
         },
         {
           title: "Creative Ideation & Concepting",
           data: [
             "Design sprint facilitation",
-            "Ideation workshops and mind-mapping",
+            "Ideation workshops and mind mapping",
             "Futuristic UI/UX exploration",
             "Innovation storytelling and pitching assets",
           ],

@@ -4,26 +4,26 @@ export default function DesignOptimization() {
   return (
     <ServiceLayout
       title="Design Optimization"
-      quote="Optimization isn't guesswork — it's engineering refined through intelligence. ERAYA drives smarter design outcomes."
-      intro="At ERAYA, we engineer smarter products through structured design optimization. From weight reduction and material efficiency to performance tuning, our simulation-driven approach ensures every design is the best version of itself."
+      quote="Better design is not just about function it's about finding the perfect balance. ERAYA optimizes every detail."
+      intro="At ERAYA, , our Design Optimization Division helps clients enhance performance, reduce weight and improve manufacturability of their products. We use advanced techniques to identify ideal design parameters while balancing structural integrity, material usage, cost and aesthetic value."
       backgroundImage="/assets/CFD-bg.png" // Update this path if you have a custom background for design optimization
       sections={[
         {
-          title: "Optimization Techniques",
+          title: "Performance driven Optimization",
           data: [
-            "Topology & shape optimization",
-            "Weight minimization",
-            "Multi-objective optimization",
-            "Parametric studies",
+            "Topology optimization for lightweight design",
+            "Parametric sensitivity analysis",
+            "Material and geometry trade off studies",
+            "Design for manufacturability (DFM) strategies",
           ],
         },
         {
-          title: "Design Exploration",
+          title: "Simulation Integrated Redesign",
           data: [
-            "Sensitivity analysis",
-            "Design space mapping",
-            "DOE (Design of Experiments)",
-            "Trade-off analysis",
+            "FEA informed stress/strain targeting",
+            "CFD guided fluid channel improvements",
+            "Thermal behavior tuning",
+            "Multi objective optimization workflows",
           ],
         },
         {
@@ -31,25 +31,25 @@ export default function DesignOptimization() {
           data: [
             "ANSYS DesignXplorer ",
             "Altair OptiStruct / Inspire",
-            "SolidWorks Simulation",
-            "Altair HyperStudy",
-            "MATLAB Optimization Toolbox",
+            "SolidWorks Optimization Tools",
+            "COMSOL Multiphysics",
+            "Fusion 360 Generative Design",
           ],
         },
       ]}
       deliverables={[
-        "Optimization reports",
-        "CAD-ready refined geometries",
-        "Performance plots & charts",
-        "Comparison matrices",
+        "Optimization CAD geometry",
+        "Iteration comparisons and trade off charts",
+        "Performance reports and simulation backed insights",
+        "Cost efficiency improvement recommendations",
       ]}
       deliverableImages={["/assets/desopt-3.png", "/assets/desopt-4.png"]}
       whyChooseUs={[
-        "Simulation-driven design insights",
-        "Efficient and lean product outcomes",
-        "Reduced trial-and-error cycles",
-        "Quantitative decision-making support",
-        "Engineers with multi-domain expertise",
+        "Deep simulation led design experience",
+        "Customized optimization goals (weight, cost, safety)",
+        "Integration with existing CAD/CAE pipelines",
+        "Expertise in generative and evolutionary design",
+        "End to end support from concept to prototype",
       ]}
       whyChooseUsImages={["/assets/desopt-7.png", "/assets/desopt-8.png"]}
     />

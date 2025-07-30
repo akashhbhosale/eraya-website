@@ -5,7 +5,7 @@ export default function CFD() {
     <ServiceLayout
       title="Computational Fluid Dynamics (CFD)"
       quote="Flow visualization reveals the unseen — ERAYA empowers design with fluid intelligence."
-      intro="At ERAYA, our CFD Division simulates gas and liquid behavior interacting with surfaces to optimize airflow, pressure, and thermal performance across engineering domains."
+      intro="At ERAYA, our Computational Fluid Dynamics (CFD) Division simulates the behavior of gases and liquids interacting with surfaces, helping you design more efficient, safe and optimized systems. We specialize in simulating airflow, heat transfer, pressure distribution and turbulence across industries like aerospace, HVAC, marine, automotive and process engineering."
       backgroundImage="/assets/CFD-bg.png" // ✅ Background image specific to CFD
       sections={[
         {

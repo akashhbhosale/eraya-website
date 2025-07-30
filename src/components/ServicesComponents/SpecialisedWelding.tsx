@@ -4,16 +4,16 @@ export default function SpecialisedWelding() {
   return (
     <ServiceLayout
       title="Specialised Welding (BS EN 15085)"
-      quote="Welding that meets the highest safety standards — ERAYA delivers certified precision for critical applications."
-      intro="ERAYA offers Specialised Welding services conforming to BS EN 15085 standards, particularly focused on safety-critical applications in railway vehicle construction and general heavy industries. Our certified welding experts ensure top-tier quality, traceability, and strength in every joint."
+      quote="Welding that meets the highest safety standards ERAYA delivers certified precision for critical applications."
+      intro="ERAYA offers Specialised Welding services conforming to BS EN 15085 standards, particularly focused on safety-critical applications in railway vehicle construction and general heavy industries. Our certified welding experts ensure top-tier quality, traceability and strength in every joint."
       backgroundImage="/assets/SpecialisedWelding-bg.png"
       sections={[
         {
           title: "Welding Capabilities",
           data: [
-            "MIG, TIG, and arc welding for various alloys",
-            "Fillet, butt, and complex joint configurations",
-            "Automated and semi-automated welding stations",
+            "MIG, TIG and arc welding for various alloys",
+            "Fillet, butt and complex joint configurations",
+            "Automated and semi automated welding stations",
             "Welding in accordance with WPS/PQR documentation",
             "Welding in accordance with WPS/WPQR documentation",
           ],
@@ -21,7 +21,7 @@ export default function SpecialisedWelding() {
         {
           title: "Compliance & Standards",
           data: [
-            "BS EN 15085-certified procedures",
+            "BS EN 15085 certified procedures",
             "Weld traceability and documentation",
             "Qualified welders and inspectors",
             "NDT (Non-Destructive Testing) options: RT, UT, PT, MT",
@@ -40,7 +40,7 @@ export default function SpecialisedWelding() {
       deliverables={[
         "Welded assemblies with BS EN 15085 compliance",
         "Welding procedure specification (WPS) documents",
-        "Visual and non-destructive testing reports",
+        "Visual and non destructive testing reports",
         "Material traceability and inspection logs",
       ]}
       deliverableImages={[
@@ -52,7 +52,7 @@ export default function SpecialisedWelding() {
         "Proven track record in rail and critical sectors",
         "Advanced equipment for precision and quality",
         "Full welding documentation and audit support",
-        "In-house inspection and NDT capabilities",
+        "Inhouse inspection and NDT capabilities",
       ]}
       whyChooseUsImages={[
         "/assets/SpecialisedWelding-1.png",

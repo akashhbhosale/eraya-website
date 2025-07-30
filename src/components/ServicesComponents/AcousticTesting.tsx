@@ -4,8 +4,8 @@ export default function AcousticTesting() {
   return (
     <ServiceLayout
       title="Acoustic Testing"
-      quote="Silence speaks volumes — ERAYA ensures your products meet the highest standards in sound performance."
-      intro="At ERAYA, our Acoustic Testing services assess how materials and products perform in terms of sound insulation, absorption, and transmission. We help manufacturers and designers validate acoustic performance across industries including automotive, construction, electronics, and consumer products."
+      quote="Silence speaks volumes ERAYA ensures your products meet the highest standards in sound performance."
+      intro="At ERAYA, our Acoustic Testing services assess how materials and products perform in terms of sound insulation, absorption and transmission. We help manufacturers and designers validate acoustic performance across industries including automotive, construction, electronics and consumer products."
       backgroundImage="/assets/acoustictesting-bg.png"
       sections={[
         {
@@ -48,7 +48,7 @@ export default function AcousticTesting() {
         "Multidisciplinary collaboration with design teams",
         "Precise, replicable test methodology",
         "Proven success in noise-sensitive product sectors",
-        "End-to-end documentation and compliance support",
+        "End to end documentation and compliance support",
       ]}
       whyChooseUsImages={[
         "/assets/acoustictesting-5.png",

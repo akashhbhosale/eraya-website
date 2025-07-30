@@ -4,7 +4,7 @@ export default function TestingEngineers() {
   return (
     <ServiceLayout
       title="Testing Engineers"
-      quote="Validation isn't optional — ERAYA's Testing Engineers ensure every product meets performance, safety, and compliance standards."
+      quote="Validation isn't optional ERAYA's Testing Engineers ensure every product meets performance, safety, and compliance standards."
       intro="At ERAYA, our Testing Engineers specialize in validating products and systems through advanced physical and simulated testing methods. Whether in automotive, aerospace, manufacturing, or electronics, we deliver data-driven insights to reduce risk, improve quality, and ensure compliance with international standards."
       backgroundImage="/assets/TestingEngineers-bg.png"
       sections={[

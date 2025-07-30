@@ -4,16 +4,16 @@ export default function ProductDevelopment() {
   return (
     <ServiceLayout
       title="Product Development"
-      quote="Every great product starts with an idea — ERAYA turns that idea into reality through engineering excellence."
-      intro="At ERAYA, our Product Development Division brings concepts to life through an integrated approach combining design, simulation, prototyping, and manufacturing. We assist startups, innovators, and industries with end-to-end development of functional, market-ready products."
+      quote="Every great product starts with an idea ERAYA turns that idea into reality through engineering excellence."
+      intro="At ERAYA, our Product Development Division brings concepts to life through an integrated approach combining design, simulation, prototyping and manufacturing. We assist startups, innovators and industries with end to end development of functional, market ready products."
       backgroundImage="/assets/pd-bg.png"
       sections={[
         {
-          title: "End-to-End Concept Development",
+          title: "End to End Concept Development",
           data: [
             "Ideation and feasibility analysis",
             "Sketching and 3D concept modeling",
-            "User-centric design approach",
+            "User centric design approach",
             "Design validation through prototyping",
           ],
         },
@@ -41,7 +41,7 @@ export default function ProductDevelopment() {
         "Final CAD and engineering drawing packages",
         "Functional and aesthetic prototypes",
         "Design validation reports and test results",
-        "Manufacturing-ready documentation",
+        "Manufacturing ready documentation",
       ]}
       deliverableImages={["/assets/pd-1.png", "/assets/pd-2.png"]}
       whyChooseUs={[

@@ -4,15 +4,15 @@ export default function DraftingTechnicians() {
   return (
     <ServiceLayout
       title="Drafting Technicians"
-      quote="Details define design — ERAYA’s Drafting Technicians ensure every line meets precision and purpose."
-      intro="At ERAYA, our Drafting Technicians deliver accurate and industry-standard technical drawings that bring engineering concepts to life. They specialize in translating design intent into clear, detailed documentation used for manufacturing, construction, and fabrication. Our drafters support multiple engineering domains with CAD precision, attention to detail, and compliance with global standards."
+      quote="Details define design ERAYA’s Drafting Technicians ensure every line meets precision and purpose."
+      intro="At ERAYA, our Drafting Technicians deliver accurate and industry standard technical drawings that bring engineering concepts to life. They specialize in translating design intent into clear, detailed documentation used for manufacturing, construction and fabrication. Our drafters support multiple engineering domains with CAD precision, attention to detail and compliance with global standards."
       backgroundImage="/assets/DraftingTechnicians-bg.png"
       sections={[
         {
           title: "Core Drafting Capabilities",
           data: [
             "2D technical drawings and schematics",
-            "Shop drawings, layouts, and site plans",
+            "Shop drawings, layouts and site plans",
             "Architectural and mechanical detailing",
             "Drawing conversions and redline updates",
           ],
@@ -32,7 +32,7 @@ export default function DraftingTechnicians() {
             "Civil, Mechanical, Electrical & Structural Drafting",
             "Fabrication and workshop drawings",
             "Panel layouts and piping isometrics",
-            "Permit, approval, and construction sets",
+            "Permit, approval and construction sets",
           ],
         },
       ]}

@@ -4,8 +4,8 @@ export default function CAM() {
   return (
     <ServiceLayout
       title="Computer Aided Machining (CAM)"
-      quote="Smart programming turns precision into performance — ERAYA makes it real through advanced CAM integration."
-      intro="At ERAYA, our Computer-Aided Machining (CAM) Division transforms digital designs into precise, machine-ready outputs. We specialize in CNC programming, toolpath optimization, and machining simulation to deliver intelligent, efficient manufacturing outcomes."
+      quote="Smart programming turns precision into performance ERAYA makes it real through advanced CAM integration."
+      intro="At ERAYA, our Computer Aided Machining (CAM) Division transforms digital designs into precise, machine-ready outputs. We specialize in CNC programming, toolpath optimization and machining simulation to deliver intelligent, efficient manufacturing outcomes."
       backgroundImage="/assets/cam-bg.png" // ✅ Add your CAM-specific background image here
       sections={[
         {
@@ -13,12 +13,12 @@ export default function CAM() {
           data: [
             "2.5D, 3-axis, 5-axis programming",
             "Toolpath strategy & optimization",
-            "Post-processor customization",
+            "Post processor customization",
             "Tool wear analysis",
           ],
         },
         {
-          title: "CAD-CAM Integration",
+          title: "CAD CAM Integration",
           data: [
             "Direct import of CAD geometry",
             "Simulation & verification",
@@ -45,7 +45,7 @@ export default function CAM() {
       deliverableImages={["/assets/cam-3.jpg", "/assets/cam-5.jpg"]}
       whyChooseUs={[
         "Expert CNC and CAM Engineers",
-        "Error-free simulation & validation",
+        "Error free simulation & validation",
         "Faster turnaround times",
         "Fully integrated with CAD pipelines",
         "Customized tooling & workflows",

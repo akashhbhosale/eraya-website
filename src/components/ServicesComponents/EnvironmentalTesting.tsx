@@ -4,8 +4,8 @@ export default function EnvironmentalTesting() {
   return (
     <ServiceLayout
       title="Environmental Testing"
-      quote="Real conditions reveal true performance — ERAYA tests materials and products against the extremes they must endure."
-      intro="At ERAYA, our Environmental Testing Division ensures that materials, components, and products can withstand harsh environmental conditions throughout their lifecycle. We simulate exposure to temperature, humidity, UV, corrosion, vibration, and more, verifying durability and compliance for applications across automotive, aerospace, defense, and consumer goods."
+      quote="Real conditions reveal true performance ERAYA tests materials and products against the extremes they must endure."
+      intro="At ERAYA, our Environmental Testing Division ensures that materials, components, and products can withstand harsh environmental conditions throughout their lifecycle. We simulate exposure to temperature, humidity, UV, corrosion, vibration and more, verifying durability and compliance for applications across automotive, aerospace, defense and consumer goods."
       backgroundImage="/assets/EnvironmentalTesting-bg.png"
       sections={[
         {
@@ -21,7 +21,7 @@ export default function EnvironmentalTesting() {
           title: "Mechanical & Vibration Stress Testing",
           data: [
             "Random and sinusoidal vibration testing",
-            "Drop, shock, and impact resistance",
+            "Drop, shock and impact resistance",
             "Packaging and transport simulation",
             "Resonance and fatigue life validation",
           ],
@@ -48,9 +48,9 @@ export default function EnvironmentalTesting() {
       ]}
       whyChooseUs={[
         "Broad testing capabilities under one roof",
-        "Simulation of extreme real-world environments",
+        "Simulation of extreme real world environments",
         "Rapid setup and testing cycles",
-        "Support for R&D, QA, and compliance teams",
+        "Support for R&D, QA and compliance teams",
         "Validated results aligned with global standards",
         "Onsite engineering support for all testings",
       ]}

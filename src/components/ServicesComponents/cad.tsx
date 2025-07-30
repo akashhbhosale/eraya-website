@@ -5,13 +5,13 @@ export default function CAD() {
     <ServiceLayout
       title="Computer Aided Design (CAD)"
       quote="Precision in design is the foundation of innovation and we build it right from the blueprint."
-      intro="At ERAYA, our Computer-Aided Design (CAD) Division is at the forefront of digital design. We specialize in precision engineering and delivering detailed, accurate and efficient CAD solutions that transform ideas into tangible results serving industries like architecture, manufacturing, engineering, rail, aerospace, automobile, construction, and product design."
+      intro="At ERAYA, our Computer Aided Design (CAD) Division is at the forefront of digital design. We specialize in precision engineering and delivering detailed, accurate and efficient CAD solutions that transform ideas into tangible results serving industries like architecture, manufacturing, engineering, rail, aerospace, automobile, construction and product design."
       backgroundImage="/assets/cad-bg-1.png" // ✅ Custom background for CAD page
       sections={[
         {
           title: "Product Design & Prototyping",
           data: [
-            "Concept-to-CAD modeling",
+            "Concept to CAD modeling",
             "Reverse engineering",
             "Drafting & Detailed Drawings",
             "STL files for 3D printing",
@@ -37,10 +37,10 @@ export default function CAD() {
         },
       ]}
       deliverables={[
-        "DWG, DXF, STL, STEP, and PDF file formats",
-        "3D models, exploded views, and assembly instructions",
+        "DWG, DXF, STL, STEP and PDF file formats",
+        "3D models, exploded views and assembly instructions",
         "Complete technical drawings with GD&T",
-        "Cloud-based file sharing & collaboration",
+        "Cloud based file sharing & collaboration",
       ]}
       deliverableImages={["/assets/cad-5.png", "/assets/cad-6.png"]}
       whyChooseUs={[

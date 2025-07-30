@@ -4,16 +4,16 @@ export default function Manufacturing() {
   return (
     <ServiceLayout
       title="Manufacturing"
-      quote="From concept to creation — ERAYA delivers precision-manufactured solutions across materials and industries."
-      intro="At ERAYA, our Manufacturing Division brings ideas to life through cutting-edge production technologies and material expertise. Whether you're developing a prototype or scaling for volume production, we offer custom manufacturing processes backed by international standards and multidisciplinary precision."
+      quote="From concept to creation ERAYA delivers precision manufactured solutions across materials and industries."
+      intro="At ERAYA, our Manufacturing Division brings ideas to life through cutting edge production technologies and material expertise. Whether you're developing a prototype or scaling for volume production, we offer custom manufacturing processes backed by international standards and multidisciplinary precision."
       backgroundImage="/assets/manufacturing-bg.png"
       sections={[
         {
           title: "Custom Manufacturing Capabilities",
           data: [
-            "Tailor-made solutions for complex components",
-            "Multi-material and hybrid process integration",
-            "Prototype to low-volume production scalability",
+            "Tailor made solutions for complex components",
+            "Multi material and hybrid process integration",
+            "Prototype to low volume production scalability",
           ],
         },
         {
@@ -29,15 +29,15 @@ export default function Manufacturing() {
           title: "Standards & Specialized Techniques",
           data: [
             "Specialised bonding to EN 17460 standards",
-            "High-quality welding to BS EN 15085 (Rail/Industrial)",
-            "Assembly-ready manufacturing integration",
+            "High quality welding to BS EN 15085 (Rail/Industrial)",
+            "Assembly ready manufacturing integration",
             "Quality assurance and dimensional verification",
           ],
         },
       ]}
       deliverables={[
         "Manufactured components as per specification",
-        "Precision-verified assemblies",
+        "Precision verified assemblies",
         "Conformance to EN and BS standards",
         "Documentation for compliance & traceability",
       ]}
@@ -47,10 +47,10 @@ export default function Manufacturing() {
       ]}
       whyChooseUs={[
         "Precision manufacturing with rapid turnaround",
-        "Multi-material expertise: metal, plastic, wood",
+        "Multi material expertise: metal, plastic, wood",
         "Compliance with international standards",
-        "Integrated with CAD,Simulations, testing, and optimization",
-        "Client-focused from prototype to production",
+        "Integrated with CAD, Simulations, testing and optimization",
+        "Client focused from prototype to production",
       ]}
       whyChooseUsImages={[
         "/assets/manufacturing-3.png",

@@ -4,8 +4,8 @@ export default function AdhesionTesting() {
   return (
     <ServiceLayout
       title="Adhesion Testing"
-      quote="Bond strength defines reliability — ERAYA ensures surfaces stick, stay, and perform under pressure."
-      intro="At ERAYA, our Adhesion Testing Division validates the bonding strength of coatings, films, adhesives, and surface treatments across a wide range of industries. From aerospace composites to automotive coatings and biomedical adhesives, we evaluate the durability and performance of bonds under various loading and environmental conditions."
+      quote="Bond strength defines reliability ERAYA ensures surfaces stick, stay, and perform under pressure."
+      intro="At ERAYA, our Adhesion Testing Division validates the bonding strength of coatings, films, adhesives and surface treatments across a wide range of industries. From aerospace composites to automotive coatings and biomedical adhesives, we evaluate the durability and performance of bonds under various loading and environmental conditions."
       backgroundImage="/assets/AdhesionTesing-bg.png"
       sections={[
         {
@@ -14,7 +14,7 @@ export default function AdhesionTesting() {
             "Pull-off (tensile) adhesion testing",
             "Peel and shear strength evaluation",
             "Scratch resistance and delamination studies",
-            "Surface roughness and pre-treatment analysis",
+            "Surface roughness and pretreatment analysis",
           ],
         },
         {
@@ -22,14 +22,14 @@ export default function AdhesionTesting() {
           data: [
             "Thermal cycling and humidity exposure",
             "Salt spray and corrosion resistance validation",
-            "Aging simulations for long-term adhesion behavior",
+            "Aging simulations for longterm adhesion behavior",
           ],
         },
         {
           title: "Material & Interface Characterization",
           data: [
             "SEM imaging of failure zones",
-            "Cross-sectional bond line analysis",
+            "Cross sectional bond line analysis",
             "Failure mode categorization (cohesive vs adhesive)",
             "Quantitative strength data and failure thresholds",
           ],
@@ -48,9 +48,9 @@ export default function AdhesionTesting() {
       ]}
       whyChooseUs={[
         "Comprehensive bonding evaluation methods",
-        "Simulation of real-world stress and environment",
-        "High-precision measurement and analysis tools",
-        "Applicable across coatings, adhesives, and composites",
+        "Simulation of real world stress and environment",
+        "High precision measurement and analysis tools",
+        "Applicable across coatings, adhesives and composites",
         "Expert recommendations for better surface bonding",
         "Detailed support in bonding document preparation and team training",
       ]}

@@ -4,23 +4,23 @@ export default function StructuralEngineers() {
   return (
     <ServiceLayout
       title="Structural Engineers"
-      quote="Structural integrity is the backbone of design — ERAYA ensures it through expert structural engineering solutions."
-      intro="At ERAYA, our Structural Engineers deliver safe, efficient, and innovative structural designs across various industries. From conceptual frameworks to detailed engineering analysis, our team ensures that every structure meets the demands of performance, compliance, and sustainability."
+      quote="Structural integrity is the backbone of design ERAYA ensures it through expert structural engineering solutions."
+      intro="At ERAYA, our Structural Engineers deliver safe, efficient and innovative structural designs across various industries. From conceptual frameworks to detailed engineering analysis, our team ensures that every structure meets the demands of performance, compliance and sustainability."
       backgroundImage="/assets/StructuralEngineers-bg.png"
       sections={[
         {
           title: "Structural Design & Analysis",
           data: [
-            "Load-bearing structure design",
-            "Concrete, steel, and composite frameworks",
-            "Seismic, wind, and vibration assessments",
+            "Load bearing structure design",
+            "Concrete, steel and composite frameworks",
+            "Seismic, wind and vibration assessments",
             "Retrofitting and rehabilitation solutions",
           ],
         },
         {
           title: "Compliance & Detailing",
           data: [
-            "Code-compliant designs (IS, AISC, Eurocode)",
+            "Code compliant designs (IS, AISC, Eurocode)",
             "GA drawings and connection details",
             "Construction documentation and rebar schedules",
             "BOQ and material estimation",
