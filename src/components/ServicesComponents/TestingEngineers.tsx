@@ -4,8 +4,8 @@ export default function TestingEngineers() {
   return (
     <ServiceLayout
       title="Testing Engineers"
-      quote="Validation isn't optional ERAYA's Testing Engineers ensure every product meets performance, safety, and compliance standards."
-      intro="At ERAYA, our Testing Engineers specialize in validating products and systems through advanced physical and simulated testing methods. Whether in automotive, aerospace, manufacturing, or electronics, we deliver data-driven insights to reduce risk, improve quality, and ensure compliance with international standards."
+      quote="Validation isn't optional ERAYA's Testing Engineers ensure every product meets performance, safety and compliance standards."
+      intro="At ERAYA, our Testing Engineers specialize in validating products and systems through advanced physical and simulated testing methods. Whether in automotive, aerospace, manufacturing, or electronics, we deliver data driven insights to reduce risk, improve quality and ensure compliance with international standards."
       backgroundImage="/assets/TestingEngineers-bg.png"
       sections={[
         {
@@ -23,7 +23,7 @@ export default function TestingEngineers() {
             "Crash and structural impact simulations",
             "Load, stress & pressure testing",
             "Material property & aging assessments",
-            "Compliance with ISO, ASTM, BIS, and EN standards",
+            "Compliance with ISO, ASTM, BIS and EN standards",
           ],
         },
         {
@@ -31,14 +31,14 @@ export default function TestingEngineers() {
           data: [
             "Data acquisition systems (DAQ)",
             "LabVIEW, MATLAB & Simulink",
-            "High-speed cameras & sensors",
+            "High speed cameras & sensors",
             "FEA, CFD & multiphysics simulation correlation",
           ],
         },
       ]}
       deliverables={[
         "Test procedures and protocol documentation",
-        "Performance graphs, plots, and summaries",
+        "Performance graphs, plots and summaries",
         "Failure analysis and root cause reports",
         "Conformance certification and improvement roadmap",
       ]}
@@ -47,9 +47,9 @@ export default function TestingEngineers() {
         "/assets/TestingEngineers-2.png",
       ]}
       whyChooseUs={[
-        "End-to-end product validation expertise",
+        "End to end product validation expertise",
         "Custom test rigs and instrumentation",
-        "Precision testing with real-time analysis",
+        "Precision testing with real time analysis",
         "Strong focus on safety and regulatory standards",
         "Experienced engineers across industry domains",
       ]}

@@ -50,7 +50,7 @@ export default function CadEngineers() {
         "Experienced in multiplatform CAD tools",
         "Quick onboarding and adaptation to your standards",
         "Precision focused with manufacturing alignment",
-        "Flexible engagement from hourly to full-time",
+        "Flexible engagement from hourly to full time",
         "Backed by ERAYA’s design and review support",
       ]}
       whyChooseUsImages={[

@@ -38,9 +38,9 @@ export default function DraftingTechnicians() {
       ]}
       deliverables={[
         "Dimensioned and annotated CAD drawings",
-        "DXF, DWG, and PDF export formats",
+        "DXF, DWG and PDF export formats",
         "Layered files ready for manufacturing or construction",
-        "Standard-compliant documentation (ASME, ISO, etc.)",
+        "Standard compliant documentation (ASME, ISO, etc.)",
       ]}
       deliverableImages={[
         "/assets/DraftingTechnicians-1.png",
