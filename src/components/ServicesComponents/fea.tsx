@@ -5,7 +5,7 @@ export default function FEA() {
     <ServiceLayout
       title="Finite Element Analysis (FEA)"
       quote="Engineering confidence begins with analysis ERAYA delivers precision through simulation before production."
-      intro="At ERAYA, our Finite Element Analysis (FEA) Division ensures your designs meet strength, safety and performance standards. We use simulation based engineering to validate concepts, predict real-world behavior and reduce costly physical testing/ prototyping across multiple industries."
+      intro="At ERAYA, our Finite Element Analysis (FEA) Division ensures your designs meet strength, safety and performance standards. We use simulation based engineering to validate concepts, predict real world behavior and reduce costly physical testing prototyping across multiple industries."
       backgroundImage="/assets/FEA-bg.png" // ✅ Background image specific to FEA
       sections={[
         {
@@ -36,7 +36,7 @@ export default function FEA() {
             "LS DYNA",
             "ABAQUS",
             "Fusion 360 Simulation",
-            "SimScale (Cloud-based)",
+            "SimScale (Cloud based)",
           ],
         },
       ]}
