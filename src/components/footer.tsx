@@ -62,8 +62,8 @@ export function Footer() {
                 ERAYA
               </h2>
               <p className="mb-4 text-md text-justify">
-                Eraya excels in engineering, precision manufacturing, and talent
-                innovation, delivering cutting-edge solutions with excellence
+                Eraya excels in engineering, precision manufacturing and talent
+                innovation, delivering cutting edge solutions with excellence
                 and craftsmanship to global customers.
               </p>
             </div>
@@ -92,6 +92,17 @@ export function Footer() {
                 </li>
                 <li>
                   <Link
+                    href="/about"
+                    className="hover:text-white transition-colors duration-300"
+                  >
+                    About
+                  </Link>
+                </li>
+
+                {/* To unhide all clients and Team */}
+                {/*
+                <li>
+                  <Link
                     href="/clients"
                     className="hover:text-white transition-colors duration-300"
                   >
@@ -105,7 +116,8 @@ export function Footer() {
                   >
                     Team
                   </Link>
-                </li>
+  </li> */}
+
                 <li>
                   <Link
                     href="/contact"

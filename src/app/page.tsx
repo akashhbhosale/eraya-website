@@ -8,6 +8,7 @@ import { Team } from "@/components/team";
 import { Clients } from "@/components/clients";
 import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
+import About from "@/components/about";
 
 // ✅ Dynamically import Services with SSR disabled
 const Services = dynamic(() => import("@/components/services"), {
@@ -39,13 +40,17 @@ export default function Home() {
         <Services />
       </section>
 
-      <section id="team">
-        <Team />
+      <section id="about">
+        <About />
       </section>
 
-      <section id="clients">
+      {/* <section id="team">
+        <Team />
+      </section> */}
+
+      {/* <section id="clients">
         <Clients />
-      </section>
+      </section> */}
 
       <section id="contact">
         <Contact />
