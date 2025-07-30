@@ -5,7 +5,7 @@ export default function CastedProducts() {
     <ServiceLayout
       title="Casted Products"
       quote="From molten metal to precision forms ERAYA delivers quality castings built for strength and performance."
-      intro="At ERAYA, we specialize in precision casting solutions across ferrous and non-ferrous alloys. Whether for industrial machinery, automotive components or architectural fittings, our casting process ensures durability, dimensional accuracy and performance under pressure. We offer end to end services including tooling, pattern design, casting, post-processing and finishing."
+      intro="At ERAYA, we specialize in precision casting solutions across ferrous and non ferrous alloys. Whether for industrial machinery, automotive components or architectural fittings, our casting process ensures durability, dimensional accuracy and performance under pressure. We offer end to end services including tooling, pattern design, casting, post processing and finishing."
       backgroundImage="/assets/CastedProducts-bg.png"
       sections={[
         {

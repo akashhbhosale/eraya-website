@@ -11,7 +11,7 @@ export default function AdhesionTesting() {
         {
           title: "Mechanical Adhesion Testing",
           data: [
-            "Pull-off (tensile) adhesion testing",
+            "Pull off (tensile) adhesion testing",
             "Peel and shear strength evaluation",
             "Scratch resistance and delamination studies",
             "Surface roughness and pretreatment analysis",

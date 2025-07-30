@@ -5,7 +5,7 @@ export default function ConceptDevelopment() {
     <ServiceLayout
       title="Concept Development"
       quote="Every innovation begins with a concept ERAYA refines raw ideas into clear, actionable blueprints."
-      intro="At ERAYA, Concept Development is where creativity meets strategy. We help clients convert early stage ideas into well-defined, value-driven concepts that are ready for design, prototyping and validation. Whether you're solving a problem, launching a product or exploring new opportunities, we make sure your vision is feasible, functional and impactful."
+      intro="At ERAYA, Concept Development is where creativity meets strategy. We help clients convert early stage ideas into well defined, value driven concepts that are ready for design, prototyping and validation. Whether you're solving a problem, launching a product or exploring new opportunities, we make sure your vision is feasible, functional and impactful."
       backgroundImage="/assets/conceptdesign-bg.png"
       sections={[
         {

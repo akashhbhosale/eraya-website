@@ -13,7 +13,7 @@ export default function StaticLoadTesting() {
         {
           title: "Structural Load Testing",
           data: [
-            "Load-bearing capacity analysis and physical testing",
+            "Load bearing capacity analysis and physical testing",
             "Beam, joint and frame evaluations",
             "Deflection and stress distribution monitoring",
             "Material deformation assessment",
@@ -34,7 +34,7 @@ export default function StaticLoadTesting() {
             "Custom test rig design and production",
             "Hydraulic and mechanical loading setups",
             "Load cells, strain gauges and displacement sensors",
-            "Real-time data acquisition systems",
+            "Real time data acquisition systems",
           ],
         },
       ]}

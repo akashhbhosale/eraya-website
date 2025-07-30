@@ -4,8 +4,8 @@ export default function InjectionMolded() {
   return (
     <ServiceLayout
       title="Injection Molded Components"
-      quote="Precision in every shot ERAYA’s injection molding delivers repeatability, strength, and product perfection."
-      intro="ERAYA offers end to end injection molding services for both prototyping and mass production. With expertise in material selection, mold design and process optimization, we create high-precision plastic components that meet performance, appearance, and regulatory demands across diverse industries."
+      quote="Precision in every shot ERAYA’s injection molding delivers repeatability, strength and product perfection."
+      intro="ERAYA offers end to end injection molding services for both prototyping and mass production. With expertise in material selection, mold design and process optimization, we create high-precision plastic components that meet performance, appearance and regulatory demands across diverse industries."
       backgroundImage="/assets/InjectionMoulded-bg.png"
       sections={[
         {

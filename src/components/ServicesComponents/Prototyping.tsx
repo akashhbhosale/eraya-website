@@ -5,7 +5,7 @@ export default function Prototyping() {
     <ServiceLayout
       title="Prototyping"
       quote="Build to learn, test to improve ERAYA prototypes ideas into experiences you can touch, test and refine."
-      intro="At ERAYA, prototyping is an essential part of our innovation process. We transform concepts and CAD designs into functional, tangible models that help clients evaluate form, fit, function and performance.Whether you're developing hardware, systems, or user interfaces, our prototyping services shorten your iteration cycles and accelerate product readiness."
+      intro="At ERAYA, prototyping is an essential part of our innovation process. We transform concepts and CAD designs into functional, tangible models that help clients evaluate form, fit, function and performance.Whether you're developing hardware, systems or user interfaces, our prototyping services shorten your iteration cycles and accelerate product readiness."
       backgroundImage="/assets/prototyping-bg.png"
       sections={[
         {

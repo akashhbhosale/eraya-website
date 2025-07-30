@@ -50,7 +50,7 @@ export default function SheetMetalFabrication() {
       whyChooseUs={[
         "Comprehensive inhouse fabrication capabilities",
         "Skilled welders and certified technicians",
-        "ISO- standard quality assurance",
+        "ISO standard quality assurance",
         "Prototyping to batch production support",
         "Fast turnaround with design integration",
       ]}

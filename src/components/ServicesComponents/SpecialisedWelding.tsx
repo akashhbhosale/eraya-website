@@ -5,7 +5,7 @@ export default function SpecialisedWelding() {
     <ServiceLayout
       title="Specialised Welding (BS EN 15085)"
       quote="Welding that meets the highest safety standards ERAYA delivers certified precision for critical applications."
-      intro="ERAYA offers Specialised Welding services conforming to BS EN 15085 standards, particularly focused on safety-critical applications in railway vehicle construction and general heavy industries. Our certified welding experts ensure top-tier quality, traceability and strength in every joint."
+      intro="ERAYA offers Specialised Welding services conforming to BS EN 15085 standards, particularly focused on safety critical applications in railway vehicle construction and general heavy industries. Our certified welding experts ensure top tier quality, traceability and strength in every joint."
       backgroundImage="/assets/SpecialisedWelding-bg.png"
       sections={[
         {
@@ -24,7 +24,7 @@ export default function SpecialisedWelding() {
             "BS EN 15085 certified procedures",
             "Weld traceability and documentation",
             "Qualified welders and inspectors",
-            "NDT (Non-Destructive Testing) options: RT, UT, PT, MT",
+            "NDT (Non Destructive Testing) options: RT, UT, PT, MT",
           ],
         },
         {

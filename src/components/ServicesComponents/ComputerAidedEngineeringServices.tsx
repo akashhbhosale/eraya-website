@@ -13,7 +13,7 @@ export default function computerAidedEngineeringServices() {
           data: [
             "3D and 2D modeling using AutoCAD, SolidWorks, CATIA, Creo and NX",
             "Assembly drawings, GD&T, layout and BOM documentation",
-            "CNC programming (3-, 4-, 5-axis) and toolpath optimization",
+            "CNC programming (3, 4, 5-axis) and toolpath optimization",
             "CAM tools: Mastercam, SolidCAM, Fusion 360, NX CAM",
           ],
         },
