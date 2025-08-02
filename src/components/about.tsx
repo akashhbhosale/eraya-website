@@ -113,7 +113,9 @@ export default function About() {
                 <br />
                 X-13, Sector 12,
                 <br />
-                Noida, Uttar Pradesh - 201301
+                Noida, Uttar Pradesh
+                <br />
+                India - 201301
               </p>
             </div>
             <div>
@@ -125,7 +127,9 @@ export default function About() {
                 <br />
                 25 Peregrine Way, Apley,
                 <br />
-                Telford, Shropshire, United Kingdom TF1 6TH
+                Telford, Shropshire,
+                <br />
+                United Kingdom TF1 6TH
               </p>
             </div>
             <div>
@@ -137,7 +141,8 @@ export default function About() {
                 <br />
                 68-C, Sector 11,
                 <br />
-                Rohini, Delhi -110085
+                Rohini, Delhi <br />
+                India -110085
               </p>
             </div>
           </div>
