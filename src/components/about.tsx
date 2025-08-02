@@ -6,7 +6,7 @@ export default function About() {
   return (
     <>
       {/* Main About Section */}
-      <div className="pt-4 pb-6 sm:w-full bg-black bg-dot-white/[0.2] relative flex flex-col items-center justify-start space-y-8 px-4">
+      <div className="pt-20 pb-6 sm:w-full bg-black bg-dot-white/[0.2] relative flex flex-col items-center justify-start space-y-8 px-4">
         {/* About Us Title */}
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
@@ -51,40 +51,45 @@ export default function About() {
       </div>
 
       {/* Mission, Vision, Values Section */}
-      <div className="w-full py-10 bg-black bg-dot-white/[0.2] flex flex-col items-center px-4">
-        <section className="text-center w-full max-w-6xl">
-          <div className="grid md:grid-cols-3 gap-8 text-gray-300">
+      <div className="max-w-full py-10 bg-black bg-dot-white/[0.2] flex flex-col items-center px-2">
+        <section className="text-center w-full max-w-7xl">
+          <div className="grid md:grid-cols-3 gap-12 text-gray-300">
             {/* Mission */}
-            <div className="bg-black border border-primary rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-bold text-white mb-2">Our Mission</h3>
-              <p className="text-justify">
+            <div className="bg-black border-2 border-primary rounded-2xl p-6 shadow-lg min-h-[320px]">
+              <h3 className="text-3xl font-extrabold text-white mb-4">
+                Our Mission
+              </h3>
+              <p className="text-xl leading-relaxed text-center">
                 To deliver innovative and intelligent engineering,
                 manufacturing, and talent solutions that empower our clients to
-                build better, faster, and smarter. We are committed to
-                precision, performance, and partnership in every
-                project we undertake.
+                build better, faster and smarter. We are committed to precision,
+                performance and partnership in every project we undertake.
               </p>
             </div>
 
             {/* Vision */}
-            <div className="bg-black border border-primary rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-bold text-white mb-2">Our Vision</h3>
-              <p className="text-justify">
+            <div className="bg-black border-2 border-primary rounded-2xl p-6 shadow-lg min-h-[320px]">
+              <h3 className="text-3xl font-extrabold text-white mb-4">
+                Our Vision
+              </h3>
+              <p className="text-xl leading-relaxed text-center">
                 To be a globally trusted brand in engineering, manufacturing and
                 talent innovation setting benchmarks for design, engineering,
-                manufacturing excellence, and workforce transformation
-                across industries.
+                manufacturing excellence and workforce transformation across
+                industries.
               </p>
             </div>
 
             {/* Values */}
-            <div className="bg-black border border-primary rounded-xl p-6 shadow-md">
-              <h3 className="text-xl font-bold text-white mb-2">Our Values</h3>
-              <p className="text-justify">
-                We are driven by integrity, fueled by innovation, and anchored
-                in collaboration. At ERAYA, we uphold a culture of excellence,
+            <div className="bg-black border-2 border-primary rounded-2xl p-6 shadow-lg min-h-[320px]">
+              <h3 className="text-3xl font-extrabold text-white mb-4">
+                Our Values
+              </h3>
+              <p className="text-xl leading-relaxed text-center">
+                We are driven by integrity, fueled by innovation and anchored in
+                collaboration. At ERAYA, we uphold a culture of excellence,
                 accountability, and continuous learning empowering our people,
-                delighting our clients, and delivering purposeful impact through
+                delighting our clients and delivering purposeful impact through
                 everything we do.
               </p>
             </div>
@@ -104,7 +109,7 @@ export default function About() {
                 Noida, India
               </h3>
               <p>
-                ERAYA Solutions Pvt. Ltd.
+                ERAYA Limited
                 <br />
                 X-13, Sector 12,
                 <br />
@@ -116,7 +121,7 @@ export default function About() {
                 Telford, UK
               </h3>
               <p>
-                ERAYA Engineering UK Ltd.
+                ERAYA Limited
                 <br />
                 25 Peregrine Way, Apley,
                 <br />
@@ -128,11 +133,11 @@ export default function About() {
                 Delhi, India
               </h3>
               <p>
-                ERAYA MENA Office
+                ERAYA Limited
                 <br />
                 68-C, Sector 11,
                 <br />
-                Rohini, Delhi.
+                Rohini, Delhi -110085
               </p>
             </div>
           </div>

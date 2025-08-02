@@ -69,7 +69,14 @@ export default function Services() {
             lineBorderRadius={"10px"}
             label={<Parent link="/" title="ERAYA" />}
           >
-            <TreeNode label={<Child link="/" title="Design and Engineering" />}>
+            <TreeNode
+              label={
+                <Child
+                  link="/services/DesignEngineer"
+                  title="Design and Engineering"
+                />
+              }
+            >
               <TreeNode
                 label={
                   <GrandChild

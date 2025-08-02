@@ -162,7 +162,7 @@ export function Footer() {
                   href="mailto:eraya@insturment.com"
                   className="text-blue-400 hover:underline"
                 >
-                  eraya@insturment.com
+                  info@eraya.uk
                 </a>
               </div>
               <div className="flex items-center justify-center gap-2">
