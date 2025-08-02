@@ -103,7 +103,7 @@ export default function About() {
           <h2 className="text-3xl font-bold text-blue-400 mb-8">
             Our Global Presence
           </h2>
-          <div className="grid md:grid-cols-3 gap-60 text-gray-300">
+          <div className="grid md:grid-cols-3 gap-8 md:gap-60 text-gray-300">
             <div>
               <h3 className="text-xl font-semibold text-white mb-2">
                 Noida, India
