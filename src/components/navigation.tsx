@@ -70,9 +70,16 @@ export function Navigation() {
   // Utility: Assign classes to each nav link
   const getLinkClass = (href: string) => {
     const sectionId = href.split("#")[1];
-    const isActive = pathname === "/" && activeSection === sectionId;
+    const isHomePage = pathname === "/";
+
+    const isActive = isHomePage && activeSection === sectionId; // scrolling behavior
+    const isExternalMatch =
+      !isHomePage && pathname.includes(href.replace("/#", ""));
+
     return `text-sm font-medium transition-colors ${
-      isActive ? "text-blue-400" : "text-white hover:text-blue-400"
+      isActive || isExternalMatch
+        ? "text-blue-400"
+        : "text-white hover:text-blue-400"
     }`;
   };
 

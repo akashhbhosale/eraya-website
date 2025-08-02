@@ -9,12 +9,13 @@ export default function DesignEngineering() {
       backgroundImage="/assets/DesignEngineer-bg.png"
       sections={[
         {
-          title: "Computer Aided Design (CAD) Services",
+          title: "CAD and CAE Services",
           data: [
             "3D modeling and 2D drafting using tools like CATIA, SolidWorks, AutoCAD",
-            "Assembly design and tolerance stack-up analysis",
-            "BOM generation and manufacturing drawings",
             "Reverse engineering and legacy design digitization",
+            "Static and dynamic simulations - FEA (Finite Element Analysis)",
+            "Computational Fluid Dynamics (CFD) Simulations",
+            "BOM generation and manufacturing drawings",
           ],
         },
         {
@@ -41,6 +42,7 @@ export default function DesignEngineering() {
         "CAD models compatible with all major formats",
         "Design validation reports and revision logs",
         "Prototype test data and improvement recommendations",
+        "FEA and CFD Simulations",
       ]}
       deliverableImages={[
         "/assets/DesignEngineer-1.png",
@@ -49,7 +51,7 @@ export default function DesignEngineering() {
       whyChooseUs={[
         "End to end product design capability from concept to testing",
         "Cross functional design teams with domain expertise",
-        "State of the art CAD and simulation infrastructure",
+        "State of the art CAD, FEA and CFD simulation infrastructure",
         "Collaboration with global manufacturing partners for prototyping",
         "Iterative design optimization for performance and cost",
         "Adherence to international design and safety standards",
